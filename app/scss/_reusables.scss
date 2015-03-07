@@ -1,4 +1,5 @@
 // Reusable, Repeatables, Mixins, Variables
+
 @mixin transition-animation($seconds) {
 	transition: all $seconds ease-in-out;
 }

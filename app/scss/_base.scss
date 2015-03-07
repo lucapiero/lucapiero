@@ -3,6 +3,23 @@ body {
 	overflow-x: hidden;
 	overflow-y: scroll;
 
+	&::-webkit-scrollbar {
+		width: rem-calc(8);
+		height: rem-calc(8);
+		border-left: 1px solid $gainsboro;
+	}
+
+	&::-webkit-scrollbar-thumb {
+		width: rem-calc(8);
+		height: rem-calc(30);
+		background-color: $gainsboro;
+		border-radius: $global-radius;
+	}
+
+	&::-webkit-scrollbar-corner {
+		background-color: $base;
+	}
+
 	.wrapper {
 
 		@import "section-header";
@@ -33,7 +50,7 @@ body {
 		}
 
 		.columns {
-			transition: all .5s linear;
+			@include transition-animation(.5s);
 		}
 
 		h4, .red {
