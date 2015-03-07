@@ -18,17 +18,3 @@ var app = (function(document, $) {
 	app.init(); 
 })();
 
-
-
-// OK, doc ready go
-$(document).ready(function() {
-	$(window).scroll(function(){
-		if ($(this).scrollTop() > 1500) {
-			$('#scrollup').animate('fade','fast');
-		} else {
-			$('#scrollup').animate('fade','fast');
-		}
-	});
-});
-
-

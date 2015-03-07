@@ -1,7 +1,6 @@
 {
   "name": "Lucapiero",
   "dependencies": {
-    "foundation": "zurb/bower-foundation",
-    "font-awesome": "~4.3.0" 
+    "foundation": "zurb/bower-foundation"
   }
 }

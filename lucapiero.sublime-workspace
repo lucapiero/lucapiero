@@ -4,16 +4,268 @@
 		"selected_items":
 		[
 			[
+				"mar",
+				"mar	CSS - margin: 0;"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"border-ra",
+				"border-bottom-left-radius"
+			],
+			[
+				"gl",
+				"global-rounded"
+			],
+			[
+				"toggl",
+				"toggleClass"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"hi",
+				"hide-for-small"
+			],
+			[
+				"cha",
+				"chat-brief"
+			],
+			[
+				"use",
+				"user-nm"
+			],
+			[
+				"chat-list",
+				"chat-list-body"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"min-",
+				"min-height"
+			],
+			[
+				"side",
+				"sidebarInnerHeight"
+			],
+			[
+				"bot",
+				"bottom"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"mes",
+				"messagesWidth"
+			],
+			[
+				"mee",
+				"messagesWidth"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
 				"trans",
-				"transparent"
+				"transition	CSS - transition: ;"
 			],
 			[
 				"font-",
-				"font-style"
+				"font-size"
+			],
+			[
+				"let",
+				"left"
+			],
+			[
+				"si",
+				"sidebarWidth"
+			],
+			[
+				"conten",
+				"content-section"
 			],
 			[
 				"con",
-				"content"
+				"contentHeight"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"fi",
+				"fixed"
+			],
+			[
+				"rel",
+				"relative"
+			],
+			[
+				"padding",
+				"padding-right"
+			],
+			[
+				"border-",
+				"border-top"
+			],
+			[
+				"border",
+				"border-top"
+			],
+			[
+				"margin-",
+				"margin-right"
+			],
+			[
+				"rig",
+				"right"
+			],
+			[
+				"mari",
+				"margin"
+			],
+			[
+				"fo",
+				"font-weight-bold"
+			],
+			[
+				"ma",
+				"max-width"
+			],
+			[
+				"le",
+				"left"
+			],
+			[
+				"tet",
+				"text-align"
+			],
+			[
+				"padid",
+				"padding-bottom"
+			],
+			[
+				"li",
+				"list-style"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"c",
+				"color"
+			],
+			[
+				"au",
+				"auto"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"a",
+				"a	<a>"
+			],
+			[
+				"te",
+				"Template"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"paddi",
+				"padding-bottom"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"w",
+				"white"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"ja",
+				"javascript"
+			],
+			[
+				"bacl",
+				"background-color"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"no",
+				"none"
+			],
+			[
+				"add",
+				"add-user-to-thread-popup"
+			],
+			[
+				"sear",
+				"searchField"
+			],
+			[
+				"sea",
+				"search-people"
+			],
+			[
+				"getElement",
+				"getElementById"
+			],
+			[
+				"focus",
+				"focusrc"
+			],
+			[
+				"foc",
+				"focusrc"
 			],
 			[
 				"transitio",
@@ -36,20 +288,8 @@
 				"mixin	@mixin"
 			],
 			[
-				"border",
-				"border-radius"
-			],
-			[
-				"margin-",
-				"margin-bottom"
-			],
-			[
 				"rev",
 				"revolution_ini"
-			],
-			[
-				"re",
-				"retina"
 			],
 			[
 				"clo",
@@ -120,20 +360,8 @@
 				"expectedImage"
 			],
 			[
-				"a",
-				"attr"
-			],
-			[
 				"fade",
 				"fadeIn"
-			],
-			[
-				"pad",
-				"padding-top"
-			],
-			[
-				"bl",
-				"inline-block"
 			],
 			[
 				"co",
@@ -148,16 +376,8 @@
 				"left-side-dreams"
 			],
 			[
-				"add",
-				"addClass"
-			],
-			[
 				"grup",
 				"group_index"
-			],
-			[
-				"mar",
-				"margin-bottom"
 			],
 			[
 				"or",
@@ -178,14 +398,6 @@
 			[
 				"inl",
 				"inline-block"
-			],
-			[
-				"in",
-				"inline-block"
-			],
-			[
-				"fon",
-				"font-weight"
 			],
 			[
 				"foun",
@@ -216,52 +428,16 @@
 				"last-child"
 			],
 			[
-				"min-",
-				"min-height"
-			],
-			[
 				"l",
 				"lightBlue"
-			],
-			[
-				"ba",
-				"background-position"
-			],
-			[
-				"ma",
-				"margin-left"
 			],
 			[
 				"orig",
 				"origText"
 			],
 			[
-				"margin",
-				"margin-bottom"
-			],
-			[
-				"te",
-				"text-align"
-			],
-			[
-				"pa",
-				"padding"
-			],
-			[
-				"fo",
-				"focus"
-			],
-			[
 				"tagit",
 				"tagit-new"
-			],
-			[
-				"li",
-				"list-style"
-			],
-			[
-				"c",
-				"color"
 			],
 			[
 				"i",
@@ -286,10 +462,6 @@
 			[
 				"rgb",
 				"rgba()"
-			],
-			[
-				"border-",
-				"border-bottom"
 			],
 			[
 				"bor",
@@ -342,63 +514,27 @@
 			[
 				"mod",
 				"Modernizr"
-			],
-			[
-				"require",
-				"requirejs"
-			],
-			[
-				"fun",
-				"function"
-			],
-			[
-				"A",
-				"AppRouter"
-			],
-			[
-				"U",
-				"UserModel"
-			],
-			[
-				"lo",
-				"logged_in"
-			],
-			[
-				"R",
-				"AppRouter"
-			],
-			[
-				"S",
-				"SessionModel"
-			],
-			[
-				"log",
-				"logged_in"
-			],
-			[
-				"user",
-				"UserModel"
-			],
-			[
-				"sess",
-				"SessionModel"
-			],
-			[
-				"pass",
-				"password"
-			],
-			[
-				"auth",
-				"authorization"
-			],
-			[
-				"tre",
-				"true"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 3709,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/index.html",
+			"settings":
+			{
+				"buffer_size": 102487,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -411,19 +547,31 @@
 				"Package Control: Install Package"
 			],
 			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
 				"install ",
 				"Package Control: Install Package"
 			],
 			[
+				"css3",
+				"CSS3: Insert normalize.css"
+			],
+			[
+				"css",
+				"CSS3: Clear Gutter Marks"
+			],
+			[
 				"Snippet: ",
-				"Snippet: #!/usr/bin/env"
+				"Snippet: @for"
 			],
 			[
 				"",
 				"Set Syntax: HTML"
 			]
 		],
-		"width": 485.0
+		"width": 575.0
 	},
 	"console":
 	{
@@ -444,139 +592,140 @@
 	"expanded_folders":
 	[
 		"/Volumes/DATA/WORK/Worked/lucapiero",
-		"/Volumes/DATA/WORK/Worked/lucapiero/data",
-		"/Volumes/DATA/WORK/Worked/lucapiero/development"
+		"/Volumes/DATA/WORK/Worked/lucapiero/.tmp",
+		"/Volumes/DATA/WORK/Worked/lucapiero/app",
+		"/Volumes/DATA/WORK/Worked/lucapiero/dist"
 	],
 	"file_history":
 	[
-		"/Volumes/DATA/WORK/Worked/lucapiero/index.html",
-		"/Volumes/DATA/WORK/Worked/lucapiero/development/index.html",
-		"/Volumes/DATA/WORK/knotable/client/views/start_page/topics-menu.html",
-		"/Volumes/DATA/WORK/knotable/client/stylesheets/_knotable.scss",
-		"/Volumes/DATA/WORK/knotable/client/index.html",
-		"/Volumes/DATA/WORK/knotable/client/router.coffee",
-		"/Volumes/DATA/WORK/knotable/client/stylesheets/application.scss",
-		"/Volumes/DATA/WORK/knotable/client/stylesheets/_variables.scss",
-		"/Volumes/DATA/WORK/knotable/client/stylesheets/_smart-app-banner.scss",
-		"/Volumes/DATA/WORK/knotable/client/stylesheets/_mixins.scss",
-		"/Volumes/DATA/WORK/knotable/client/stylesheets/_jquery.Jcrop.scss",
-		"/Volumes/DATA/WORK/knotable/client/stylesheets/_bootstrap-timepicker.scss",
-		"/Volumes/DATA/WORK/knotable/client/stylesheets/_antiscroll.scss",
-		"/Volumes/DATA/WORK/knotable/client/stylesheets/_accounts.scss",
-		"/Volumes/DATA/WORK/knotable/client/stylesheets/_admin.scss",
-		"/Volumes/DATA/WORK/knotable/client/stylesheets/_smart-app-banner.min.scss",
-		"/Volumes/DATA/WORK/knotable/client/stylesheets/_font-icons.scss",
-		"/Users/cristi/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/Volumes/DATA/WORK/Worked/Oak Cargo/App/public/sass/config.rb",
-		"/Volumes/DATA/WORK/Worked/Oak Cargo/App/public/css/app.css",
-		"/Volumes/DATA/WORK/knotable/client/stylesheets/foundation/_settings.scss",
-		"/Volumes/DATA/WORK/Birbl/birbl-rails/app/assets/stylesheets/_mixins.scss",
-		"/Volumes/DATA/WORK/knotable/client/stylesheets/knote.css",
-		"/Volumes/DATA/WORK/knotable/client/views/2u/login.coffee",
-		"/Volumes/DATA/WORK/knotable/client/views/start_page/people-menu.coffee",
-		"/Volumes/DATA/WORK/#backbone/Backbone.js/Gruntfile.js",
-		"/Volumes/DATA/WORK/knotable/client/views/start_page/people-menu.html",
-		"/Volumes/DATA/WORK/knotable/public/font-icons/css/fontello.css",
-		"/Volumes/DATA/WORK/knotable/client/views/thread_page/right_menu.html",
-		"/Volumes/DATA/WORK/knotable/client/views/thread_page/right_menu.coffee",
-		"/Volumes/DATA/WORK/knotable/client/lib/popups/add_user_to_thread_popup.coffee",
-		"/Volumes/DATA/WORK/knotable/.meteor/local/build/programs/web.browser/app/client/views/thread_page/right_menu.coffee.js",
-		"/Volumes/DATA/WORK/knotable/client/views/thread_page/attachments.html",
-		"/Volumes/DATA/WORK/knotable/client/views/thread_page/knotes/knotes.html",
-		"/Volumes/DATA/WORK/knotable/.meteor/local/build/programs/server/node_modules/jsdoc/node_modules/esprima/test/3rdparty/jquery.mobile-1.2.0.js",
-		"/Volumes/DATA/WORK/knotable/client/stylesheets/bootstrap-timepicker.css",
-		"/Volumes/DATA/WORK/knotable/client/stylesheets/jquery.Jcrop.min.css",
-		"/Volumes/DATA/WORK/knotable/client/stylesheets/jquery.ui.css",
-		"/Volumes/DATA/WORK/knotable/client/stylesheets/smart-app-banner.min.css",
-		"/Volumes/DATA/WORK/knotable/client/stylesheets/antiscroll.css",
-		"/Volumes/DATA/WORK/knotable/client/stylesheets/admin.css",
-		"/Volumes/DATA/WORK/knotable/client/stylesheets/accounts.css",
-		"/Volumes/DATA/WORK/knotable/.meteor/versions",
-		"/Volumes/DATA/WORK/knotable/.meteor/packages",
-		"/Volumes/DATA/WORK/knotable/client/stylesheets/_foundation.scss",
-		"/Users/cristi/Desktop/f9810b0cd8c94033c14f88619933c3b091db120e.css",
-		"/Users/cristi/Desktop/_knotable.scss",
-		"/Users/cristi/.meteor/packages/matthew:foundation5-sass/.0.1.17.1ewj89v++os+web.browser+web.cordova/os/packages/matthew:foundation5-sass/scss/foundation.scss",
-		"/Volumes/DATA/WORK/knotable/client/stylesheets/foundation/settings.styl",
-		"/Volumes/DATA/WORK/knotable/client/stylesheets/application.styl",
-		"/Volumes/DATA/WORK/knotable/client/stylesheets/foundation/functions.styl",
-		"/Volumes/DATA/WORK/knotable/client/stylesheets/foundation/components/button-groups.styl",
-		"/Volumes/DATA/WORK/knotable/client/stylesheets/knotable.styl",
-		"/Volumes/DATA/WORK/knotable/client/stylesheets/foundation/components/toolbar.styl",
-		"/Volumes/DATA/WORK/knotable/client/stylesheets/foundation/foundation.styl",
-		"/Volumes/DATA/WORK/knotable/client/stylesheets/foundation/components/global.styl",
-		"/Users/cristi/Downloads/foundation-stylus-master/styl/foundation/components/alert-boxes.styl",
-		"/Volumes/DATA/WORK/knotable.tmp/foundation/functions.styl",
-		"/Volumes/DATA/WORK/knotable.tmp/application.styl",
-		"/Volumes/DATA/WORK/knotable.tmp/functions.styl",
-		"/Users/cristi/Downloads/foundation-stylus-333834eba1f5d4aed3176d7ec958df6916d0711e/styl/foundation/components/global.styl",
-		"/Volumes/DATA/WORK/knotable/client/stylesheets/stylus/foundation/foundation.styl",
-		"/Volumes/DATA/WORK/knotable/client/stylesheets/stylus/foundation/functions.styl",
-		"/Volumes/DATA/WORK/knotable.tmp/5.3.0/foundation-stylus/functions.styl",
-		"/Volumes/DATA/WORK/knotable/public/css/product-page.css",
-		"/Volumes/DATA/WORK/knotable/public/css/login.css",
-		"/Volumes/DATA/WORK/knotable/public/css/knote_mobile.css",
-		"/Volumes/DATA/WORK/knotable/public/css/knote_desktop.css",
-		"/Volumes/DATA/WORK/knotable/tests/tests/server/helpers/contentPipelineTestsData.json",
-		"/Volumes/DATA/WORK/knotable/tests/tests/client/views/login_page/helpers/loginHelpersTests.coffee",
-		"/Volumes/DATA/WORK/knotable/knotable-config.json",
-		"/Volumes/DATA/WORK/tmp/mimosa-stylus/package.json",
-		"/Volumes/DATA/WORK/tmp/mimosa-stylus/mimosa-config.js",
-		"/Users/cristi/Downloads/foundation-stylus-5.3.0/styl/foundation/functions.styl",
-		"/Volumes/DATA/WORK/knotable/server/routes/api/file.coffee",
-		"/Volumes/DATA/WORK/Worked/Unifihealth/zion/login-reset.php",
-		"/Volumes/DATA/WORK/meteor/localmarket/client/templates/activity.js",
-		"/Volumes/DATA/WORK/meteor/localmarket/client/templates/activity.html",
-		"/Volumes/DATA/WORK/meteor/localmarket/client/templates/about.html",
-		"/Volumes/DATA/WORK/meteor/localmarket/client/helpers.js",
-		"/Volumes/DATA/WORK/meteor/localmarket/client/init.js",
-		"/Volumes/DATA/WORK/meteor/localmarket/client/lib/jquery.touchwipe.js",
-		"/Volumes/DATA/WORK/meteor/localmarket/client/stylesheets/main.less",
-		"/Volumes/DATA/WORK/meteor/localmarket/client/head.html",
-		"/Volumes/DATA/WORK/knotable/client/stylesheets/_knote.styl",
-		"/Volumes/DATA/WORK/meteor/cristialt/cristialt.js",
-		"/Volumes/DATA/WORK/meteor/cristialt/cristialt.html",
-		"/Volumes/DATA/WORK/meteor/cristialt/cristialt.css",
-		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/0afc46c0-df12-4c14-8785-cde3eaa29c18/admin/index.php",
-		"/Volumes/DATA/WORK/Avangard-media/foundation5-stylus/.bower.json",
-		"/Volumes/DATA/WORK/knotable/client/controllers/message_controller.coffee",
-		"/Volumes/DATA/WORK/knotable/client/stylesheets/stylus/foundation-stylus/bower.json",
-		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/0afc46c0-df12-4c14-8785-cde3eaa29c18/index.php",
-		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/0afc46c0-df12-4c14-8785-cde3eaa29c18/vqmod/mods.cache",
-		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/0afc46c0-df12-4c14-8785-cde3eaa29c18/.htaccess",
-		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/0afc46c0-df12-4c14-8785-cde3eaa29c18/config.php",
-		"/Volumes/DATA/WORK/ridas.ro/backup of ridas.ro/ridas2.sql",
-		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/0afc46c0-df12-4c14-8785-cde3eaa29c18/admin/config.php",
-		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/0afc46c0-df12-4c14-8785-cde3eaa29c18/.htaccess.txt",
-		"/Volumes/DATA/WORK/UIs/foundation/bower.json",
-		"/Volumes/DATA/WORK/UIs/foundation/package.json",
-		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/a9df7641-ce57-4822-8671-08cd068afed7/public_html/css/ie8.min.css",
-		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/a9df7641-ce57-4822-8671-08cd068afed7/public_html/css/lucapiero.min.css",
-		"/Users/cristi/Sites/lucapiero/development/lucapiero.css",
+		"/Volumes/DATA/WORK/Worked/lucapiero/dist/index.html",
+		"/Volumes/DATA/WORK/Worked/lucapiero/app/index.html",
+		"/Volumes/DATA/WORK/Worked/lucapiero/tmp/_cdns-src.html",
 		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/a9df7641-ce57-4822-8671-08cd068afed7/public_html/index.html",
-		"/Users/cristi/Sites/lucapiero/index.html",
-		"/Users/cristi/Sites/lucapiero/development/index.html",
-		"/Users/cristi/Sites/ridas.ro/backup of ridas.ro/ridas2.sql",
-		"/Users/cristi/Downloads/ridas.ro/config.php",
-		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/0afc46c0-df12-4c14-8785-cde3eaa29c18/index.html",
-		"/Users/cristi/Sites/tmp/foundation-sass-stylus-diff/Gruntfile.js",
-		"/Users/cristi/Sites/tmp/foundation-sass-stylus-diff/css.diff",
-		"/private/var/folders/fx/j38dqh4x48l60bntkcw_f20r0000gn/T/2d358b70-1085-449d-9658-be01474009ce/public_html/catalog/view/theme/ridas-v2/stylesheet/app.css",
-		"/private/var/folders/fx/j38dqh4x48l60bntkcw_f20r0000gn/T/2d358b70-1085-449d-9658-be01474009ce/public_html/catalog/view/theme/ridas-v2/template/module/neocart_featured.tpl",
-		"/private/var/folders/fx/j38dqh4x48l60bntkcw_f20r0000gn/T/2d358b70-1085-449d-9658-be01474009ce/public_html/catalog/view/theme/ridas-v2/template/common/home.tpl",
-		"/private/var/folders/fx/j38dqh4x48l60bntkcw_f20r0000gn/T/2d358b70-1085-449d-9658-be01474009ce/public_html/catalog/view/theme/ridas-v2/template/module/featured.tpl",
-		"/Users/cristi/Sites/ridas.ro/admin/controller/module/neocart_featured.php",
-		"/private/var/folders/fx/j38dqh4x48l60bntkcw_f20r0000gn/T/2d358b70-1085-449d-9658-be01474009ce/public_html/catalog/view/theme/ridas-v2/template/common/header.tpl",
-		"/private/var/folders/fx/j38dqh4x48l60bntkcw_f20r0000gn/T/2d358b70-1085-449d-9658-be01474009ce/public_html/catalog/view/theme/ridas-v2/template/module/neocart_latest.tpl",
-		"/Users/cristi/Sites/ridas.ro/catalog/view/theme/ridas-v2/template/module/theme_slider_model.tpl",
-		"/Users/cristi/Sites/ridas.ro/catalog/view/theme/ridas-v2/template/module/neocart_latest.tpl",
-		"/Users/cristi/Sites/ridas.ro/catalog/view/theme/ridas-v2/template/module/neocart_special.tpl",
-		"/private/var/folders/fx/j38dqh4x48l60bntkcw_f20r0000gn/T/2d358b70-1085-449d-9658-be01474009ce/public_html/catalog/view/theme/ridas-v2/template/module/neocart_special.tpl",
-		"/private/var/folders/fx/j38dqh4x48l60bntkcw_f20r0000gn/T/4cb6d103-e38d-4414-ad38-f057ec2aa894/readme_cristi_maghiar.txt",
-		"/private/var/folders/fx/j38dqh4x48l60bntkcw_f20r0000gn/T/2d358b70-1085-449d-9658-be01474009ce/public_html/catalog/view/theme/ridas-v2/template/product/product.tpl",
-		"/private/var/folders/fx/j38dqh4x48l60bntkcw_f20r0000gn/T/4cb6d103-e38d-4414-ad38-f057ec2aa894/httpdocs/data/cms/templates/home.php",
-		"/private/var/folders/fx/j38dqh4x48l60bntkcw_f20r0000gn/T/4cb6d103-e38d-4414-ad38-f057ec2aa894/httpdocs/data/cms/templates/header.php",
-		"/private/var/folders/fx/j38dqh4x48l60bntkcw_f20r0000gn/T/4cb6d103-e38d-4414-ad38-f057ec2aa894/httpdocs/data/static/css/kaart.css"
+		"/Volumes/DATA/WORK/Worked/lucapiero/dist/css/libraries.min.css",
+		"/Volumes/DATA/WORK/Worked/lucapiero/app/js/app.js",
+		"/Volumes/DATA/WORK/Worked/lucapiero/app/scss/_config.scss",
+		"/Volumes/DATA/WORK/Worked/lucapiero/app/scss/_section-content.scss",
+		"/Volumes/DATA/WORK/Worked/lucapiero/app/scss/_base.scss",
+		"/Volumes/DATA/WORK/Worked/lucapiero/app/scss/_section-tabs.scss",
+		"/Volumes/DATA/WORK/Worked/lucapiero/app/scss/_mq-small-up.scss",
+		"/Volumes/DATA/WORK/Worked/lucapiero/app/scss/_mq-large-up.scss",
+		"/Volumes/DATA/WORK/Worked/lucapiero/app/scss/_reusables.scss",
+		"/Volumes/DATA/WORK/Worked/lucapiero/app/scss/_section-header.scss",
+		"/Volumes/DATA/WORK/Worked/lucapiero/package.json",
+		"/Volumes/DATA/WORK/Worked/lucapiero/app/scss/app.scss",
+		"/Volumes/DATA/WORK/Worked/lucapiero/app/scss/_mq-medium-up.scss",
+		"/Volumes/DATA/WORK/Worked/lucapiero/.gitignore",
+		"/Volumes/DATA/WORK/Worked/lucapiero/app/scss/_section-content-content.scss",
+		"/Volumes/DATA/WORK/Worked/lucapiero/app/scss/_section-footer.scss",
+		"/Volumes/DATA/WORK/Worked/lucapiero/README.md",
+		"/Volumes/DATA/WORK/Worked/lucapiero/Gruntfile.js",
+		"/Volumes/DATA/WORK/Worked/lucapiero/bower.json",
+		"/Volumes/DATA/WORK/Fabio/ui_dev/app/index.html",
+		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/f397a7f8-a3e0-4c19-afcb-28a7a20731cb/private/www/netosuite/Templates/skeletal/products/new-product.template.html",
+		"/Volumes/DATA/WORK/Fabio/ui_dev/app/js/app.js",
+		"/Volumes/DATA/WORK/Fabio/ui_dev/app/scss/_section-content-content.scss",
+		"/Volumes/DATA/WORK/Fabio/ui_dev/app/scss/_section-footer.scss",
+		"/Volumes/DATA/WORK/Fabio/ui_dev/app/scss/_reusables.scss",
+		"/Volumes/DATA/WORK/Fabio/ui_dev/app/scss/app.scss",
+		"/Volumes/DATA/WORK/Fabio/ui_dev/app/scss/_config.scss",
+		"/Volumes/DATA/WORK/Fabio/ui_dev/app/scss/_section-content-sidebar.scss",
+		"/Volumes/DATA/WORK/Fabio/ui_dev/app/scss/_mq-small-up.scss",
+		"/Volumes/DATA/WORK/Fabio/ui_dev/Gruntfile.js",
+		"/Volumes/DATA/WORK/Fabio/ui_dev/dist/js/app.min.js",
+		"/Volumes/DATA/WORK/Fabio/ui_dev/app/delete.html",
+		"/Volumes/DATA/WORK/Fabio/ui_dev/app/delete_all.html",
+		"/Volumes/DATA/WORK/Fabio/ui_dev/app/new_message.html",
+		"/Volumes/DATA/WORK/Fabio/ui_dev/app/kitchen-sink.html",
+		"/Volumes/DATA/WORK/Fabio/ui_dev/app/scss/_section-content.scss",
+		"/Volumes/DATA/WORK/Fabio/ui_dev/app/scss/_section-header.scss",
+		"/Volumes/DATA/WORK/Fabio/ui_dev/app/scss/_base.scss",
+		"/Volumes/DATA/WORK/Fabio/ui_dev/app/scss/_font-icons.scss",
+		"/Volumes/DATA/WORK/Fabio/ui_dev/app/css/app.css",
+		"/Volumes/DATA/WORK/Fabio/ui_dev/.gitignore",
+		"/Volumes/DATA/WORK/Fabio/ui_dev/README.md",
+		"/Volumes/DATA/WORK/Fabio/messages-app-updates-mar2nd/package.json",
+		"/Volumes/DATA/WORK/Fabio/messages-app-updates-mar2nd/bower.json",
+		"/Volumes/DATA/WORK/Fabio/messages-app-updates-mar2nd/.yo-rc.json",
+		"/Volumes/DATA/WORK/Fabio/ui_dev/app/scss/_mq-medium-up.scss",
+		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/f397a7f8-a3e0-4c19-afcb-28a7a20731cb/httpdocs/assets/themes/skeletal/css/style.css",
+		"/Volumes/DATA/WORK/Fabio/ui_dev/bower.json",
+		"/Volumes/DATA/WORK/Fabio/ui_dev/app/scss/_content.scss",
+		"/Volumes/DATA/WORK/Fabio/ui_dev/app/scss/_content-content.scss",
+		"/Volumes/DATA/WORK/Fabio/ui_dev/app/scss/_content-sidebar.scss",
+		"/Volumes/DATA/WORK/Fabio/ui_dev/app/scss/_header.scss",
+		"/Volumes/DATA/WORK/Fabio/ui_dev/app/scss/_footer.scss",
+		"/Volumes/DATA/WORK/Fabio/ui_dev/app/scss/_large-up.scss",
+		"/Volumes/DATA/WORK/Fabio/ui_dev/app/scss/_medium-up.scss",
+		"/Volumes/DATA/WORK/Fabio/ui_dev/app/scss/_small-up.scss",
+		"/Volumes/DATA/WORK/Fabio/ui_dev/app/scss/_settings.scss",
+		"/Volumes/DATA/WORK/Worked/Knotable/knotable-meteor-app/client/stylesheets/layout/_layout.scss",
+		"/Volumes/DATA/WORK/Fabio/ui_dev/app/scss/_development.scss",
+		"/Volumes/DATA/WORK/Worked/Knotable/knotable-meteor-app/client/stylesheets/application.scss",
+		"/Volumes/DATA/WORK/Worked/Knotable/knotable-meteor-app/client/stylesheets/_temp.scss",
+		"/Volumes/DATA/WORK/Fabio/ui_dev/dist/css/app.min.css",
+		"/Volumes/DATA/WORK/Fabio/ui_dev/dist/index.html",
+		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/f397a7f8-a3e0-4c19-afcb-28a7a20731cb/private/www/netosuite/Templates/skeletal/products/includes/header.template.html",
+		"/Volumes/DATA/WORK/Fabio/ui_dev/app/scss/_appstyles.scss",
+		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/f397a7f8-a3e0-4c19-afcb-28a7a20731cb/private/www/netosuite/Templates/skeletal/cms/home.template.html",
+		"/Volumes/DATA/WORK/Fabio/chatapp-font/demo.html",
+		"/Volumes/DATA/WORK/Fabio/chatapp-font/style.css",
+		"/Users/cristi/Desktop/max.css",
+		"/Users/cristi/Desktop/min.css",
+		"/Volumes/DATA/WORK/Fabio/fi/chat-o.svg",
+		"/Volumes/DATA/WORK/Fabio/fi/chat.svg",
+		"/Volumes/DATA/WORK/Fabio/ui_dev/.yo-rc.json",
+		"/Volumes/DATA/WORK/Fabio/ui_dev/package.json",
+		"/Volumes/DATA/WORK/Worked/NavigatorGlass/NavigatorGlassWeb/package.json",
+		"/Volumes/DATA/WORK/Worked/NavigatorGlass/NavigatorGlassWeb/Gruntfile.js",
+		"/Volumes/DATA/WORK/Fabio/ui_dev/iMessage.sublime-project",
+		"/Volumes/DATA/WORK/Fabio/ui_dev/app/sass/config.rb",
+		"/Volumes/DATA/WORK/Worked/NavigatorGlass/NavigatorGlassWeb/bower.json",
+		"/Volumes/DATA/WORK/Fabio/ui_dev/app/js/init.js",
+		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/f397a7f8-a3e0-4c19-afcb-28a7a20731cb/private/www/netosuite/Templates/skeletal/products/template.html",
+		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/f397a7f8-a3e0-4c19-afcb-28a7a20731cb/private/www/netosuite/Templates/skeletal/products/includes/images.template.html",
+		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/f397a7f8-a3e0-4c19-afcb-28a7a20731cb/private/www/netosuite/Templates/skeletal/products/includes/components.template.html",
+		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/f397a7f8-a3e0-4c19-afcb-28a7a20731cb/private/www/netosuite/Templates/skeletal/products/includes/child_products.template.html",
+		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/f397a7f8-a3e0-4c19-afcb-28a7a20731cb/private/www/netosuite/Templates/skeletal/products/includes/buying_options.template.html",
+		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/f397a7f8-a3e0-4c19-afcb-28a7a20731cb/private/www/netosuite/Templates/skeletal/footers/template.html",
+		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/f397a7f8-a3e0-4c19-afcb-28a7a20731cb/private/www/netosuite/Templates/skeletal/headers/template.html",
+		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/f397a7f8-a3e0-4c19-afcb-28a7a20731cb/httpdocs/assets/themes/skeletal/css/app/font-awesome/font-awesome.less",
+		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/f397a7f8-a3e0-4c19-afcb-28a7a20731cb/httpdocs/assets/themes/skeletal/css/app/font-awesome/core.less",
+		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/f397a7f8-a3e0-4c19-afcb-28a7a20731cb/httpdocs/assets/themes/skeletal/css/app/font-awesome/icons.less",
+		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/f397a7f8-a3e0-4c19-afcb-28a7a20731cb/private/www/netosuite/Templates/skeletal/cms/store_finder.template.html",
+		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/f397a7f8-a3e0-4c19-afcb-28a7a20731cb/private/www/netosuite/Templates/skeletal/cms/testimonials.template.html",
+		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/f397a7f8-a3e0-4c19-afcb-28a7a20731cb/private/www/netosuite/Templates/skeletal/cms/testi-single.template.html",
+		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/f397a7f8-a3e0-4c19-afcb-28a7a20731cb/private/www/netosuite/Templates/skeletal/cms/stockist.template.html",
+		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/f397a7f8-a3e0-4c19-afcb-28a7a20731cb/private/www/netosuite/Templates/skeletal/cms/showcase.template.html",
+		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/f397a7f8-a3e0-4c19-afcb-28a7a20731cb/private/www/netosuite/Templates/skeletal/cms/search_results.template.html",
+		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/f397a7f8-a3e0-4c19-afcb-28a7a20731cb/private/www/netosuite/Templates/skeletal/cms/products.template.html",
+		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/f397a7f8-a3e0-4c19-afcb-28a7a20731cb/private/www/netosuite/Templates/skeletal/cms/notifyme.template.html",
+		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/f397a7f8-a3e0-4c19-afcb-28a7a20731cb/private/www/netosuite/Templates/skeletal/cms/modal.template.html",
+		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/f397a7f8-a3e0-4c19-afcb-28a7a20731cb/private/www/netosuite/Templates/skeletal/cms/default.template.html",
+		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/f397a7f8-a3e0-4c19-afcb-28a7a20731cb/private/www/netosuite/Templates/skeletal/cms/contact-us.template.html",
+		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/f397a7f8-a3e0-4c19-afcb-28a7a20731cb/private/www/netosuite/Templates/skeletal/cms/category.template.html",
+		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/f397a7f8-a3e0-4c19-afcb-28a7a20731cb/private/www/netosuite/Templates/skeletal/cms/blog.template.html",
+		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/f397a7f8-a3e0-4c19-afcb-28a7a20731cb/private/www/netosuite/Templates/skeletal/cms/blog-video.template.html",
+		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/f397a7f8-a3e0-4c19-afcb-28a7a20731cb/private/www/netosuite/Templates/skeletal/cms/blog-single.template.html",
+		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/f397a7f8-a3e0-4c19-afcb-28a7a20731cb/private/www/netosuite/Templates/skeletal/cms/blog-new.template.html",
+		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/f397a7f8-a3e0-4c19-afcb-28a7a20731cb/private/www/netosuite/Templates/skeletal/cms/about.template.html",
+		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/f397a7f8-a3e0-4c19-afcb-28a7a20731cb/private/www/netosuite/Templates/skeletal/cms/404.template.html",
+		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/f397a7f8-a3e0-4c19-afcb-28a7a20731cb/httpdocs/assets/themes/skeletal/plugins/fancybox/jquery.fancybox.css",
+		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/f397a7f8-a3e0-4c19-afcb-28a7a20731cb/httpdocs/assets/themes/skeletal/css/app/app.less",
+		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/f397a7f8-a3e0-4c19-afcb-28a7a20731cb/httpdocs/assets/themes/skeletal/css/app.css",
+		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/f397a7f8-a3e0-4c19-afcb-28a7a20731cb/httpdocs/assets/themes/skeletal/css/app/app.css",
+		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/f397a7f8-a3e0-4c19-afcb-28a7a20731cb/httpdocs/assets/themes/skeletal/js/bootstrap.min.js",
+		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/f397a7f8-a3e0-4c19-afcb-28a7a20731cb/httpdocs/assets/themes/skeletal/js/bootstrap.js",
+		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/f397a7f8-a3e0-4c19-afcb-28a7a20731cb/private/www/netosuite/Templates/skeletal/netothemeinfo.txt",
+		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/fz3temp-1/neto.less",
+		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/fz3temp-1/custom.less",
+		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/f397a7f8-a3e0-4c19-afcb-28a7a20731cb/private/www/netosuite/NetoSync/source.txt",
+		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/f397a7f8-a3e0-4c19-afcb-28a7a20731cb/private/www/netosuite/NetoSync/code.txt",
+		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/f397a7f8-a3e0-4c19-afcb-28a7a20731cb/private/www/netosuite/NetoSync/checksum.txt",
+		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/f397a7f8-a3e0-4c19-afcb-28a7a20731cb/private/www/netosuite/Templates/skeletal/cart/shopping_cart.template.html",
+		"/private/var/folders/ml/2lrg9h211l1387vmlstlz_zw0000gn/T/f397a7f8-a3e0-4c19-afcb-28a7a20731cb/httpdocs/assets/themes/skeletal/js/custom.js",
+		"/Volumes/DATA/WORK/Knotable/knotable-meteor-app/client/stylesheets/modules/_main.scss",
+		"/Volumes/DATA/WORK/Knotable/tmp/stylus/animation.import.styl"
 	],
 	"find":
 	{
@@ -587,6 +736,58 @@
 		"height": 93.0,
 		"where_history":
 		[
+			"/Volumes/DATA/WORK/Fabio/ui_dev/app/",
+			"/Volumes/DATA/WORK/Fabio/ui_dev/app/scss",
+			"",
+			"/Volumes/DATA/WORK/Knotable/knotable-meteor-app/client/stylesheets",
+			"/Volumes/DATA/WORK/Knotable/knotable-meteor-app/client/, -*.js",
+			"/Volumes/DATA/WORK/Knotable/knotable-meteor-app/client/",
+			"/Volumes/DATA/WORK/Knotable/knotable-meteor-app/client/,-*.scss,-*.coffee,-*.js",
+			"/Volumes/DATA/WORK/Knotable/knotable-meteor-app/client/",
+			"/Volumes/DATA/WORK/Knotable/knotable-meteor-app/",
+			"/Volumes/DATA/WORK/Knotable/knotable-meteor-app/client/",
+			"/Volumes/DATA/WORK/Knotable/knotable-meteor-app/client/,-*.scss,-*.coffee,-*.js",
+			"/Volumes/DATA/WORK/Knotable/knotable-meteor-app/client/,-*.scss,-*.coffee",
+			"/Volumes/DATA/WORK/Knotable/knotable-meteor-app/client/,-*.scss",
+			"/Volumes/DATA/WORK/Knotable/knotable-meteor-app/client/",
+			"/Volumes/DATA/WORK/Knotable/knotable-meteor-app/client/views , -*.coffee",
+			"/Volumes/DATA/WORK/Knotable/knotable-meteor-app/client/views",
+			"/Volumes/DATA/WORK/Knotable/knotable-meteor-app/client/",
+			"/Volumes/DATA/WORK/Knotable/knotable-meteor-app/client/views,-*.coffee",
+			"/Volumes/DATA/WORK/Knotable/knotable-meteor-app/client/views",
+			"/Volumes/DATA/WORK/Knotable/knotable-meteor-app/client/",
+			"/Volumes/DATA/WORK/Knotable/knotable-meteor-app/client/views",
+			"/Volumes/DATA/WORK/Knotable/knotable-meteor-app/client/",
+			"/Volumes/DATA/WORK/Knotable/knotable-meteor-app/client/stylesheets/modules",
+			"/Volumes/DATA/WORK/Knotable/knotable-meteor-app/client/",
+			"/Volumes/DATA/WORK/Knotable/knotable-meteor-app/client/stylesheets",
+			"/Volumes/DATA/WORK/Knotable/knotable-meteor-app/client/",
+			"/Volumes/DATA/WORK/Knotable/knotable-meteor-app/client/lib",
+			"/Volumes/DATA/WORK/Knotable/knotable-meteor-app/client,-/stylessheets/",
+			"/Volumes/DATA/WORK/Knotable/knotable-meteor-app/client",
+			"/Volumes/DATA/WORK/Knotable/knotable-meteor-app/client/stylesheets,-_main.scss,-_settings.scss",
+			"/Volumes/DATA/WORK/Knotable/knotable-meteor-app/client/stylesheets,-_main.scss",
+			"/Volumes/DATA/WORK/Knotable/knotable-meteor-app/client/stylesheets",
+			"/Volumes/DATA/WORK/Knotable/knotable-meteor-app/client",
+			"/Volumes/DATA/WORK/Knotable/knotable-meteor-app/",
+			"/Volumes/DATA/WORK/Knotable/knotable-meteor-app/client/views",
+			"",
+			"/Volumes/DATA/WORK/Knotable/knotable-meteor-app/public",
+			"/Volumes/DATA/WORK/Knotable/knotable-meteor-app/lib",
+			"/Volumes/DATA/WORK/Knotable/knotable-meteor-app/",
+			"/Volumes/DATA/WORK/Knotable/knotable-meteor-app/client",
+			"",
+			"/Volumes/DATA/WORK/Knotable/knotable-meteor-app/client",
+			"/Volumes/DATA/WORK/Knotable/knotable/client",
+			"/Volumes/DATA/WORK/knotable/client",
+			"-*.map",
+			"-/Volumes/DATA/WORK/knotable/.meteor",
+			"/Volumes/DATA/WORK/knotable/,-/Volumes/DATA/WORK/knotable/.idea, -/Volumes/DATA/WORK/knotable/.meteor",
+			"/Volumes/DATA/WORK/knotable/",
+			"/Volumes/DATA/WORK/knotable/client",
+			"/Volumes/DATA/WORK/knotable/client/lib/helpers",
+			"",
+			"/Volumes/DATA/WORK/knotable/client/views",
 			"",
 			"/Volumes/WORK/Birbl/birbl-rails/app",
 			"/Volumes/WORK/Birbl/birbl-rails/app/assets/javascripts",
@@ -631,141 +832,154 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"text",
-			"visible-on-hover topic-remove-icon fa fa-check icon-archive",
-			"topic-remove-icon",
-			"<<<<<<",
-			"#D3D3D3",
-			"#fff",
-			"gba(255, 255, 255,",
-			"rgba(0, 0, 0",
-			"#FFF",
-			"#000",
-			"rgba",
-			"#",
-			"#ffffff",
-			"0, 0, 0",
-			"(255, 255, 255",
-			"#ccc",
-			"#fff",
-			"rgba(0, 0, 0",
-			"linea",
-			"ddd",
-			"#fff",
-			"#000",
-			"#888",
-			"0, 0, 0",
-			";",
-			"}",
-			"{",
-			"46505a",
-			"404852",
-			"737a82",
-			"5dbee7",
-			"72cd99",
-			"#d7d47c",
-			"d7d47c",
-			"faeaba",
-			"fff857",
-			"5AA872",
-			"002a80",
-			"0088cc",
-			"0044cc",
-			"006dcc",
-			"162838",
-			"28ace8",
-			"28ace8\\",
-			"28ace8",
-			"78C5E8",
-			"0044cc",
-			"006dcc",
-			"162838",
-			"28ace8",
-			"78C5E8",
-			"#A9A9A9",
-			"#eee ",
-			"#eee;",
-			"#EEE",
-			"#EEEEEE",
-			"#ddd",
-			"#DDD",
-			"#DDDDDD",
-			"#CCC",
-			"#CCCCCC",
-			"#cccccc",
-			"#bbb",
-			"#bbbbbb",
-			"#aaa",
-			"#999",
-			"#999999",
-			"#888",
-			"#888888",
-			"#777",
-			"#777777",
-			"777777",
-			"#555",
-			"#444",
-			"#444444",
-			"#222222",
-			"#333",
-			"#333333",
-			"#666",
-			"#666666",
-			"#606060",
-			"faeaba",
-			"rgba(145, 145, 145,",
-			"rgba(255, 255, 255,",
-			"rgba(70, 80, 90,",
-			"fff857",
-			"rgba",
-			".transparent-loading {\n    position: absolute;\n    right: 0;\n    width: 100%;\n    height: 100%;\n    background: rgba(0, 0, 0, 0.8);\n    z-index: 9999999;\n    top: 0;\n}\n\n.transparent-loading-white {\n    position: absolute;\n    right: 0;\n    width: 100%;\n    height: 100%;\n    background: #FFF;\n    z-index: 9999999;\n    top: 0;\n}\n\n.transparent-loading .loading-bar {\n    top: 0;\n}\n",
-			"transparent-loading",
-			"// **********************************************************",
+			"<",
+			"head>",
+			"data/",
+			"images",
+			"categ-group'>",
+			"product'>",
+			"product",
+			"product'>",
+			"90lei",
+			"red small button secondary has-tip",
+			"buttons",
+			"tabs",
+			"categ-group",
+			"mainContent",
+			"tabs",
+			"bold",
+			"hidden",
+			"<div class='large-4 columns product'>",
+			"<!-- END - O PIZZA --> ",
+			"grande)'>",
+			"pizza)'>",
+			"<p>",
+			"<h4>",
+			"<",
+			"datad.jpg",
+			"large-4 columns product",
+			"<",
+			"<!-- END - UN SOS --> ",
+			"lei'>",
+			"<p>",
+			"<small>",
+			"<h4>",
+			"<",
+			"<!-- END - O SALATA --> ",
+			"lei'>",
+			"gr'>",
+			"<p>",
+			"<h4>",
+			">",
+			"<",
+			"<!-- END - O PASTA --> ",
+			"lei'>",
+			"gr'>",
+			"<p>",
+			"<h4>",
+			">",
+			"<",
+			"<!-- END - O PIZZA --> ",
+			"grande)'>",
+			"2 pizza)'>",
+			"<p>",
+			"<h4>",
+			"<h3>",
+			">",
+			"<",
+			"imgs",
+			"img/",
+			"\n",
+			"\n<",
+			"\n",
+			">",
+			"<",
+			"\",",
 			"//",
-			"/******/",
-			"/",
-			"animation-name",
-			"#000",
-			"#0000000",
-			"#000",
-			"#",
-			"div",
-			"( #{$i} / 10 )",
-			"}",
+			"<",
+			"<a class=\"item\">",
+			"account-toggle",
+			" <div class=\"",
+			"// <script src=\"bower_components",
+			"dropdown buttons",
+			"uglify",
+			"chat-tools",
+			"<div id=\"chat-tools\" class=\"hide-for-small\">",
+			"chat-tools",
+			"<div id=\"chat-tools\" class=\"hide-for-small\">",
+			" columns text-center",
+			"-radius: 2px;",
+			"border-radius",
+			"125rem",
+			".125rem;",
+			"<div class=\"small-4 columns text-center\">",
+			"bottom-nav",
+			"chr-talk2",
+			"redel-one",
+			"-radius: 3px;",
+			"left-radius: 18px;",
+			"text-actions",
+			"ed...",
+			"short-message",
+			"el.",
+			"chat-list-rhythm",
+			".chat-list-rhythm",
+			"text",
+			"<p class=\"text\">",
+			"100px",
+			"button groups",
+			"Dropdown Buttons",
+			"dropdown",
+			"tooltip",
+			"<img class=\"user-avatar\" title=\"Fabio\" />",
+			"<img class=\"user-avatar\" title=\"user-avatar\" />",
+			"class=\"user-avatar\"",
+			"	deleted:    ",
+			"postcss",
+			"<h6 class=\"user-name",
+			" </li>",
+			" <li",
+			"redel-one",
+			"tooltips",
+			"});",
 			"{",
-			"}",
-			"#EEE",
-			"  !important;",
-			"!important;",
-			"nth-child(3",
-			"nth",
-			"-ms-user-select",
-			"nth-",
-			"-webkit-",
-			"user-select",
-			"-ms-user-select",
-			"-moz-user-select",
-			"-webkit-user-select",
-			"-webkit-",
-			"@media",
-			"animation-tim",
-			"-webkit-animation-timing-function",
-			"animation-timing-function",
-			"-webkit-animation-timing-function",
-			"-webkit-animation-timing-function:",
-			"animation-name",
-			"@include animation-name(",
-			"animation-name",
-			"#cccccc",
-			"#CCCCCC",
-			"transition"
+			"=",
+			";",
+			":",
+			"tooltips",
+			"font-",
+			"inline-list",
+			"transition-animation",
+			"chat-list",
+			"chat-li",
+			"transition-animation",
+			"chat-",
+			"transition",
+			"background-color",
+			"&::-webkit-scrollbar",
+			"scroll",
+			"fsod",
+			"console.log"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
+			"images/data/",
+			"<div id=\"chat-tools\">",
+			"left",
+			"right",
+			"small-offset-2",
+			"small-offset-1",
+			"small-10 columns",
+			"small-8 columns",
+			"small-5 columns",
+			"small-2 columns",
+			"button success",
+			"button",
+			"row",
 			"",
 			"/assets/",
 			"/assets/sprites/addimagebg.png",
@@ -815,20 +1029,81 @@
 		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
-		"whole_word": false,
+		"whole_word": true,
 		"wrap": true
 	},
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "Gruntfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3709,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2258,
+								2258
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/index.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 102487,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 454.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 25.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -868,7 +1143,7 @@
 	"project": "lucapiero.sublime-project",
 	"replace":
 	{
-		"height": 46.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -886,14 +1161,14 @@
 		[
 			[
 				"",
-				"/Volumes/DATA/WORK/knotable/knotable.sublime-project"
+				"/Volumes/DATA/WORK/Knotable/knotable-meteor-app/knotable.sublime-project"
 			]
 		],
 		"width": 380.0
 	},
 	"select_symbol":
 	{
-		"height": 392.0,
+		"height": 87.0,
 		"selected_items":
 		[
 			[
@@ -901,7 +1176,7 @@
 				"AlertInfo"
 			]
 		],
-		"width": 575.0
+		"width": 392.0
 	},
 	"selected_group": 0,
 	"settings":
@@ -911,7 +1186,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 268.0,
+	"side_bar_width": 253.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

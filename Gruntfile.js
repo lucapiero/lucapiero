@@ -5,6 +5,7 @@ module.exports = function(grunt) {
     require('load-grunt-tasks')(grunt);
 
 	grunt.loadNpmTasks('grunt-postcss');
+	grunt.loadNpmTasks('grunt-contrib-htmlmin');
 
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
@@ -113,6 +114,23 @@ module.exports = function(grunt) {
 			}
 		},
 
+		htmlmin: {
+			dist: {
+			  	options: {
+				  	removeComments: true,
+			  		collapseWhitespace: true,
+			  		preserveLineBreaks: false,
+			  		minifyJS: true,
+			  		minifyCSS: true,
+
+				},
+
+			  	files: {
+				    'dist/index.html': 'app/index.html',
+				}
+			},
+		},
+
 		watch: {
 			grunt: {
 				files: ['Gruntfile.js'],
@@ -175,6 +193,6 @@ module.exports = function(grunt) {
 	grunt.registerTask('default', 			['compile-sass', 'postcss', 'bower-install', 'connect:app', 'watch']);
 	grunt.registerTask('validate-js', 		['jshint']);
 	grunt.registerTask('server-dist', 		['connect:dist']);
-	grunt.registerTask('publish', 			['compile-sass', 'postcss', 'clean:dist', 'validate-js', 'useminPrepare', 'copy:dist', 'newer:imagemin', 'concat', 'cssmin', 'uglify', 'usemin']);
+	grunt.registerTask('publish', 			['compile-sass', 'postcss', 'clean:dist', 'validate-js', 'useminPrepare', 'copy:dist', 'newer:imagemin', 'concat', 'cssmin', 'uglify', 'usemin', 'htmlmin']);
 };
 
