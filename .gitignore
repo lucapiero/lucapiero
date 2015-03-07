@@ -1,7 +1,7 @@
 .DS_Store
 *.scssc
 app/app.css
-
+app/kitchen-sink.html
 .tmp/
 .sass-cache/
 dist/
