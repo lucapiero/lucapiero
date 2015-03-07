@@ -1,0 +1,146 @@
+
+/* ==========================================================================
+   Lucapiero Style Sheets
+   ========================================================================== */
+
+/* mobile phones treatment */
+@media screen and ( max-width : 767px ) {
+    header #logo {
+        padding: 1em 0;
+        margin: 0 auto;
+        max-width: 300px;  }
+    
+    header .top-content {
+        padding: 0;
+        font-size: 1.25em;
+        text-align: center; }
+
+    .columns.product {
+        margin-bottom: 2em; }
+}
+
+/* tablet + desktop */
+@media screen and ( min-width : 768px ) {    
+    header #logo {
+        padding: 1em 0;
+        margin: 0 auto;  }
+    
+    header .top-content {
+        text-align: right;
+        font-size: 1.5em;
+        padding: 2em 1em 0 0; }
+
+    .columns.product {
+        min-height: 28em; } 
+}
+
+header .top-content {
+    color: #ccc;
+    font-style: italic;
+    font-weight: normal; }
+
+.bordered {
+    border: 1px solid #fff;
+    background: #eee; }
+
+.fixedHeader {
+    position: fixed;
+    background: #fff;
+    z-index: 10; }
+
+.mainContent {
+    top: 150px;
+    position: relative;
+    z-index: 9; }
+
+.categ-group {
+    padding-top: 5em; }
+
+.categ-group p {
+    color: #555; }
+
+h1,h2,h3,h4,h5 {
+    line-height: 1.5 !important;
+    font-family: 'Raleway', sans-serif; }
+
+h1 {
+    color: #555; }
+
+h2 {
+    color: #555; }
+
+h3 {
+    color: #555; }
+
+h4 {
+    color: #c00; }
+    
+.red {
+    color: #c00; }
+    
+.green {
+    color: #080; }
+
+.bold {
+    font-weight: bold !important;
+}    
+
+.has-tip {
+    cursor: default }
+    
+.columns {
+    -webkit-transition: all .5s linear;
+    -moz-transition: all .5s linear;
+    -ms-transition: all .5s linear;
+    -o-transition: all .5s linear;
+    transition: all .5s linear; }
+
+.categ-group > .columns:last-child {
+     float: left; }
+
+.product [src$="d.jpg"] {
+    margin: 1em 0  2em; }
+
+#scrollup {
+    display: none;
+    position: fixed;
+    bottom: 3em;
+    right: 2em;
+    width: 5em;
+    height: 3em;
+    z-index: 100;
+    background: url(../img/scrollup.png) no-repeat;
+    border-radius: .25em;
+    -webkit-border-radius: .25em;
+    text-indent: -100100em; }
+    
+.button-group li.button.secondary {
+    color: #080; }
+    
+.button-group li.button.secondary:not(:first-child) {
+    color: #c00; }
+
+
+hr.hidden {
+    border: solid #fff;
+}
+
+.not-showing {
+    display: none !important;
+}
+
+
+/* overrides, some */
+
+.section-container.tabs>section>.content, 
+.section-container.tabs>.section>.content {
+    border-top: 1px solid #ddd !important;
+    border-right: 1px solid #fff !important;
+    border-bottom: 1px solid #fff !important;
+    border-left: 1px solid #fff !important;
+}
+
+.section-container.tabs>section>.title a, 
+.section-container.tabs>.section>.title a {
+    padding: .75em 1.5em;
+}
