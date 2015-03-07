@@ -1,0 +1,26 @@
+#nav-region {
+	border-top: 1px solid $white;
+
+	.tabs {
+		background: $smoke;
+
+		.tab-title {
+			width: 20%;
+			margin: 0;
+			padding: 0;
+			white-space: nowrap;
+			overflow: hidden;
+			text-align: center;
+			text-overflow: ellipsis;
+
+			&:not(:last-child) {
+				border-right: 1px solid $white;
+			}
+
+			a {
+				padding: .5rem 0;
+				font-size: .75rem;
+			}
+		}
+	}
+}

@@ -16,5 +16,31 @@
 		background-color: $base;
 	}
 
-	@import "section-content-content";	
+
+	.categ-group {
+		padding-top: 5em;
+		
+		p {
+			color: #555;
+		}
+	}
+
+	#scrollup {
+		bottom: 3em;
+		right: 2em;
+		width: 5em;
+		height: 3em;
+		z-index: 100;
+		border-radius: .25em;
+		text-indent: -100100em;
+	}
+
+	.button-group li.button.secondary {
+		color: $success-color;
+
+		&:not(:first-child) {
+			color: #c00;
+		}
+	}
+
 }	

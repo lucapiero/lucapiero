@@ -7,6 +7,8 @@ body {
 
 		@import "section-header";
 
+		@import "section-tabs";
+
 		@import "section-content";
 
 		@import "section-footer";
@@ -50,48 +52,4 @@ body {
 			margin: 1em 0  2em;
 		}		
 	}	
-}
-
-
-.categ-group {
-  padding-top: 5em;
-  p {
-    color: #555;
-  }
-}
-
-
-#scrollup {
-  // display: none;
-  // position: fixed;
-  bottom: 3em;
-  right: 2em;
-  width: 5em;
-  height: 3em;
-  z-index: 100;
-  border-radius: .25em;
-  text-indent: -100100em;
-}
-
-.button-group li.button.secondary {
-  color: $success-color;
-
-  &:not(:first-child) {
-    color: #c00;
-  }
-}
-
-
-/* overrides, some */
-.section-container.tabs > {
-	section > .content, .section > .content {
-		border-top: 1px solid #ddd !important;
-		border-right: 1px solid #fff !important;
-		border-bottom: 1px solid #fff !important;
-		border-left: 1px solid #fff !important;
-	}
-
-	section > .title a, .section > .title a {
-		padding: .75em 1.5em;
-	}
 }
