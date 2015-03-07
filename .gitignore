@@ -1,5 +1,7 @@
 .DS_Store
 *.scssc
+lucapiero.sublime-project 
+lucapiero.sublime-workspace
 app/css/app.css
 app/kitchen-sink.html
 .tmp/
