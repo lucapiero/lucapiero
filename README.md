@@ -1,3 +1,3 @@
-## Lucapiero
+# Lucapiero
 
-#Pizzerie - Restaurant in centrul Oradiei
+###Pizzerie - Restaurant in centrul Oradiei

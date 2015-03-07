@@ -14,10 +14,6 @@ body {
 			li {
 				list-style: none;
 			}
-		}	
-
-		[class^="chr-"] {
-			font-size: 2rem;
 		}		
 
 		> * {
@@ -30,12 +26,4 @@ body {
 		}
 
 	}	
-
-	.tooltip {
-		border-radius: $global-radius;
-
-		> .nub {
-			left: calc(50% - 5px);
-		}
-	}
 }

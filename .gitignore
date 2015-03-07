@@ -1,9 +1,10 @@
 .DS_Store
 *.scssc
-app/app.css
+app/css/app.css
 app/kitchen-sink.html
 .tmp/
 .sass-cache/
 dist/
+tmp/
 node_modules/
 app/bower_components/
