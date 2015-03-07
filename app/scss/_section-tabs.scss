@@ -5,7 +5,7 @@
 		background: $smoke;
 
 		.tab-title {
-			width: 20%;
+			width: calc(100% / 6);
 			margin: 0;
 			padding: 0;
 			white-space: nowrap;

@@ -61,10 +61,6 @@ body {
 			color: $success-color;
 		}
 
-		.categ-group > .columns:last-child {
-			@extend .end;
-		}
-
 		[src$="d.jpg"] {
 			margin: 1em 0  2em;
 		}		
