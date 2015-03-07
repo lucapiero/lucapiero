@@ -24,9 +24,9 @@ var app = (function(document, $) {
 $(document).ready(function() {
 	$(window).scroll(function(){
 		if ($(this).scrollTop() > 1500) {
-			$('#scrollup').fadeIn('fast');
+			$('#scrollup').animate('fade','fast');
 		} else {
-			$('#scrollup').fadeOut('slow');
+			$('#scrollup').animate('fade','fast');
 		}
 	});
 });

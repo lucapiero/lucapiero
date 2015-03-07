@@ -1,3 +1,16 @@
 #header {
+	#logo {
+		margin: 1rem 0;
+	}
 
+	.top-content {
+		color: $iron;
+		font-style: italic;
+		text-align: center;
+
+		p {
+			padding: .5rem 0 0;
+			font-size: 1.125rem;
+		}
+	}
 }
