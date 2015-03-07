@@ -1,0 +1,41 @@
+// This is mobile-first approach, so these styles are avaiable for all devices
+body {
+	overflow: hidden;
+
+	.wrapper {
+
+		@import "section-header";
+
+		@import "section-content";
+
+		@import "section-footer";
+
+		ul {
+			li {
+				list-style: none;
+			}
+		}	
+
+		[class^="chr-"] {
+			font-size: 2rem;
+		}		
+
+		> * {
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+		}
+
+		.hidden {
+			display: none !important;
+		}
+
+	}	
+
+	.tooltip {
+		border-radius: $global-radius;
+
+		> .nub {
+			left: calc(50% - 5px);
+		}
+	}
+}

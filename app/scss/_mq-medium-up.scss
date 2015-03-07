@@ -1,0 +1,13 @@
+// Screens > 1024px
+@media #{$medium} {
+	body {
+		.wrapper {
+			#header {
+			}	
+			#content {
+			}	
+			#footer {
+			}	
+		}	
+	}	
+}
