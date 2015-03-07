@@ -7,11 +7,6 @@ var app = (function(document, $) {
 		},
 		_init = function() {
 			$(document).foundation();
-            // needed to use joyride
-            // doc: http://foundation.zurb.com/docs/components/joyride.html
-            $(document).on('click', '#start-jr', function () {
-                $(document).foundation('joyride', 'start');
-            });
 			_userAgentInit();
 		};
 	return {
@@ -19,6 +14,21 @@ var app = (function(document, $) {
 	};
 })(document, jQuery);
 
-(function() {
-	app.init();
+(function() { 
+	app.init(); 
 })();
+
+
+
+// OK, doc ready go
+$(document).ready(function() {
+	$(window).scroll(function(){
+		if ($(this).scrollTop() > 1500) {
+			$('#scrollup').fadeIn('fast');
+		} else {
+			$('#scrollup').fadeOut('slow');
+		}
+	});
+});
+
+

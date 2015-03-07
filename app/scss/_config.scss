@@ -81,7 +81,7 @@ $include-xl-html-grid-classes: false;
 
 $row-width: rem-calc(1000);
 $total-columns: 12;
-$column-gutter: rem-calc(0);
+$column-gutter: rem-calc(30);
 
 // #{inserted here to fix the error}
 $opposite-direction: right;
