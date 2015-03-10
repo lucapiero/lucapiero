@@ -1,0 +1,32 @@
+[
+    {
+    	"id": "0", 
+    	"name": "Pizza Clasic",
+        "DOMNode":"#pizza-clasic"
+	},
+    {
+    	"id": "1", 
+    	"name": "Pizza Bonisimo",
+        "DOMNode":"#pizza-bonisimo"
+	},
+    {
+    	"id": "2", 
+    	"name": "Pizza de Post",
+        "DOMNode":"#pizza-de-post"
+	},
+    {
+    	"id": "3", 
+    	"name": "Paste",
+        "DOMNode":"#paste"
+	},
+    {
+    	"id": "4", 
+    	"name": "Salate",
+        "DOMNode":"#salate"
+	},
+    {
+    	"id": "4", 
+    	"name": "Sosuri",
+        "DOMNode":"#sosuri"
+	}
+]
