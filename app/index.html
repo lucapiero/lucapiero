@@ -23,7 +23,7 @@
     <link href='http://fonts.googleapis.com/css?family=Raleway:200' rel='stylesheet' type='text/css'>    
 </head>
 
-<body>
+<body ng-controller="MainCtrl">
 
     <div class="row">
         <div class="small-12 columns">
@@ -68,7 +68,6 @@
                         <img src="images/data/lucapiero_pizza_buna_960x250.jpg">
                     </div>
                 </aside>   <!-- /.promotions -->
-
 
                 <section id="nav-region">   <!-- tab links -->
                     <div class="row">
@@ -1554,9 +1553,13 @@
     <script src="bower_components/foundation/js/foundation/foundation.tab.js"></script>
     <script src="bower_components/foundation/js/foundation/foundation.tooltip.js"></script>
     <!-- // <script src="bower_components/foundation/js/foundation/foundation.topbar.js"></script> -->
+    <script src="bower_components/json3/lib/json3.js"></script>
+    <script src="bower_components/lodash/lodash.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
     <!-- endbuild -->
     <!-- build:js js/app.min.js -->
     <script src="js/app.js"></script>
+    <script src="js/ng.js"></script>
     <!-- endbuild -->
 
     <script>
