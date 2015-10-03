@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="en" ng-app="Lucapiero">
+<html class="no-js" lang="en" ng-app="lucapiero">
 
 <head>
     <meta charset='utf-8'>
@@ -20,279 +20,20 @@
     <!-- build:js js/vendor/modernizr.min.js -->
     <script src="bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
-    <link href='http://fonts.googleapis.com/css?family=Raleway:200' rel='stylesheet' type='text/css'>    
+    <!-- <link href='http://fonts.googleapis.com/css?family=Raleway:200' rel='stylesheet' type='text/css'>     -->
 </head>
 
-<body ng-controller="MainCtrl">
+<body>
 
-    <div class="row">
-        <div class="small-12 columns">
-            <div class="wrapper">
-
-                <header id="header"> <!-- #header -->
-                    <div class='row'> 
-                        <div class='small-12 medium-6 columns'> 
-                            <div class='row'> 
-                                <div class='small-6 medium-9 large-7 small-centered columns'> 
-                                    <h1 class='hide-for-small hide-for-medium-up'>
-                                        pizzeria Lucapiero - Pizza service Oradea. Livrari la domiciliu 0259.414.777 . 1+1 gratis
-                                    </h1> 
-                                    <a href='/'> 
-                                        <img src='images/lucapiero.jpg' id='logo' title='Lucapiero - pizza service Oradea' />
-                                    </a>
-                                </div> 
-                            </div> 
-                        </div> 
-                        <div class='small-12 medium-6 columns top-content'> 
-                            <p>
-                                <span class='red'>
-                                    Lucapiero - pizza service Oradea
-                                </span>
-                                <br /> 
-                                <span class='green'>
-                                    Livrari la domiciliu 
-                                    <strong>
-                                        0259.414.777
-                                    </strong>
-                                </span>
-                                <br /> 
-                                pizza buna, pret bun, ambalaj gratuit!
-                            </p> 
-                        </div> 
-                    </div> 
-                </header> <!-- / #header -->                
-
-
-                <aside id="splashes" class="row"> <!-- .promotions -->
-                    <div class="large-12 columns">
-                        <img src="images/data/lucapiero_pizza_buna_960x250.jpg">
-                    </div>
-                </aside>   <!-- /.promotions -->
-
-                <section id="nav-region">   <!-- tab links -->
-                    <div class="row">
-                        <div class="small-12 columns">
-                            <ul class="tabs" data-tab>
-                                <li ng-repeat="category in categories" ng-class="{'active':isCurrentCategory(category)}" class="tab-title">
-                                    <a href="{{category.DOMNode}}">{{category.name}}</a>
-                                </li>
-                            </ul>
-                            <br />                        
-                        </div>
-                    </div>
-                </section> <!-- /tab links -->
-
-
-                <div id="content" class="tabs-content">
-                    <section class="content" id="pizza-clasic"><!-- pizza clasic-->
-                        <div class='large-12 columns'> 
-                            <h3> 
-                                Pizza Clasic - cel mai bun pret la pizza coapta in cuptor cu lemne! 
-                            </h3> 
-                        </div> 
-
-                        <div class='small-12 large-12 columns'> 
-                            <div class='row categ-group'> 
-                                <div class='medium-6 large-4 columns product' ng-repeat="product in products | filter:{category:'pizza clasic'}">
-                                    <img src='{{product.url}}' /> 
-                                    <h4>
-                                        {{product.name}} 
-                                    </h4> 
-                                    <p>
-                                        {{product.ingredients}} 
-                                    </p> 
-                                    <ul class='button-group round even-3'> 
-                                        <li class='small button secondary has-tip' data-tooltip title='pizza individual -standard 32cm (pret/buc.)'>{{product.price1}} lei
-                                        </li> 
-                                        <li class='small button secondary has-tip' data-tooltip title='1+1 gratis -pizza medie 30cm. (la acest pret primesti 2 pizza)'>
-                                            {{product.price2}} lei
-                                        </li> 
-                                        <li class='small button secondary has-tip' data-tooltip title='1+1 gratis -pizza grande 40cm. (la acest pret primesti 2 pizza grande)'>
-                                            {{product.price3}} lei
-                                        </li> 
-                                    </ul> 
-                                </div> 
-                            </div> 
-                        </div> 
-                    </section> <!-- / pizza clasic-->
-
-                    <section class="content" id="pizza-bonisimo"> <!-- pizza bonisimo -->  
-                        <div class='large-12 columns'> 
-                            <h3>
-                                Pizza Bonisimo - ingrediente mai bune. mai buna pizza!
-                            </h3> 
-                        </div> 
-                        <div class='small-12 large-12 columns'>  
-                            <div class='row categ-group'> 
-                                <div class='medium-6 large-4 columns product' ng-repeat="product in products | filter:{category:'pizza bonisimo'}">
-                                    <img src='{{product.url}}' /> 
-                                    <h4>
-                                        {{product.name}} 
-                                    </h4> 
-                                    <p>
-                                        {{product.ingredients}} 
-                                    </p> 
-                                    <ul class='button-group round even-3'> 
-                                        <li class='small button secondary has-tip' data-tooltip title='pizza individual -standard 32cm (pret/buc.)'>{{product.price1}} lei
-                                        </li> 
-                                        <li class='small button secondary has-tip' data-tooltip title='1+1 gratis -pizza medie 30cm. (la acest pret primesti 2 pizza)'>
-                                            {{product.price2}} lei
-                                        </li> 
-                                        <li class='small button secondary has-tip' data-tooltip title='1+1 gratis -pizza grande 40cm. (la acest pret primesti 2 pizza grande)'>
-                                            {{product.price3}} lei
-                                        </li> 
-                                    </ul> 
-                                </div> 
-                            </div> 
-                        </div> 
-                    </section><!-- /pizza bonisimo --> 
-
-                    <section class="content active" id="pizza-de-post"><!-- pizza de post-->
-                        <div class='large-12 columns'> 
-                            <h3> 
-                                Pizza de post
-                            </h3> 
-                        </div> 
-                        <div class='small-12 large-12 columns'>  
-                            <div class='row categ-group'> 
-                                <div class='medium-6 large-4 columns product' ng-repeat="product in products | filter:{category:'pizza de post'}">
-                                    <img src='{{product.url}}' /> 
-                                    <h4>
-                                        {{product.name}} 
-                                    </h4> 
-                                    <p>
-                                        {{product.ingredients}} 
-                                    </p> 
-                                    <ul class='button-group round even-3'> 
-                                        <li class='small button secondary has-tip' data-tooltip title='pizza individual -standard 32cm (pret/buc.)'>{{product.price1}} lei
-                                        </li> 
-                                        <li class='small button secondary has-tip' data-tooltip title='1+1 gratis -pizza medie 30cm. (la acest pret primesti 2 pizza)'>
-                                            {{product.price2}} lei
-                                        </li> 
-                                        <li class='small button secondary has-tip' data-tooltip title='1+1 gratis -pizza grande 40cm. (la acest pret primesti 2 pizza grande)'>
-                                            {{product.price3}} lei
-                                        </li> 
-                                    </ul> 
-                                </div> 
-                            </div> 
-                        </div> 
-                    </section> <!-- / pizza de post-->
-
-                    <section class="content" id="paste"><!-- paste -->
-                        <div class='large-12 columns'> 
-                            <h3>
-                                Paste Oradea - livrare la domiciliu 0259.414.777
-                            </h3> 
-                        </div> 
-
-                        <div class='small-12 large-12 columns'>  
-                            <div class='row categ-group'> 
-                                <div class='medium-6 large-4 columns product' ng-repeat="product in products | filter:{category:'paste'}">
-                                    <img src='{{product.url}}' /> 
-                                    <h4>
-                                        {{product.name}} 
-                                    </h4> 
-                                    <p>
-                                        {{product.ingredients}} 
-                                    </p> 
-                                    <ul class="button-group round even-2">
-                                        <li class="small button secondary has-tip" data-tooltip=""  title="gramaj {{product.weight}}">{{product.weight}} gr</li><li class="small button secondary has-tip" data-tooltip="" title="pret {{product.price1}}">{{product.price1}} lei</li>
-                                    </ul>
-                                </div> 
-                            </div> 
-                        </div>                         
-                    </section><!-- /paste --> 
-
-                    <section class="content" id="salate"><!-- salate -->
-                        <div class='large-12 columns'> 
-                            <h3>
-                                Salate Oradea - livrare la domociliu 0259.414.777
-                            </h3> 
-                        </div>  
-                        <div class='small-12 large-12 columns'>  
-                            <div class='row categ-group'> 
-                                <div class='medium-6 large-4 columns product' ng-repeat="product in products | filter:{category:'salate'}">
-                                    <img src='{{product.url}}' /> 
-                                    <h4>
-                                        {{product.name}} 
-                                    </h4> 
-                                    <p>
-                                        {{product.ingredients}} 
-                                    </p> 
-                                    <ul class="button-group round even-2">
-                                        <li class="small button secondary has-tip" data-tooltip=""  title="gramaj {{product.weight}}">{{product.weight}} gr</li><li class="small button secondary has-tip" data-tooltip="" title="pret {{product.price1}}">{{product.price1}} lei</li>
-                                    </ul>
-                                </div> 
-                            </div> 
-                        </div>                            
-                    </section><!-- /salate --> 
-
-                    <section class="content" id="sosuri"><!-- sosuri -->
-                        <div class='large-12 columns'> 
-                            <h3>
-                                Sosuri
-                            </h3> 
-                        </div>         
-                        <div class='small-12 large-12 columns'>  
-                            <div class='row categ-group'> 
-                                <div class='medium-6 large-4 columns product' ng-repeat="product in products | filter:{category:'sosuri'}">
-                                    <img src='{{product.url}}' /> 
-                                    <h4>
-                                        {{product.name}} 
-                                    </h4> 
-                                    <p>
-                                        {{product.ingredients}} 
-                                    </p> 
-                                    <ul class="button-group round even-2">
-                                        <li class="small button secondary has-tip" data-tooltip=""  title="gramaj {{product.weight}}">{{product.weight}} gr</li><li class="small button secondary has-tip" data-tooltip="" title="pret {{product.price1}}">{{product.price1}} lei</li>
-                                    </ul>
-                                </div> 
-                            </div> 
-                        </div>                            
-                    </section><!-- /sosuri --> 
-                </div>
-
-
-                <footer id="footer"> 
-                    <!-- FOOTEr SECTION --> 
-                    <div class='row'> 
-                        <div class='large-12 columns'> 
-                            <br />
-                            <hr />
-                            <br />
-                            <p>
-                                <span class='red'>
-                                    Pizzeria Lucapiero - 0259.414.777 - pizza , paste , salate
-                                </span> - livrare gratiuta la orice adresa din Oradea. In localitatile limitrofe se percepe taxa de transport. Produsele sunt disponibile in limita stocului. Topingurile ce nu sunt in stoc vor fi comunicate in momentul comenzi telefonice. Timpul de livrare comunicat de catre operatoarea call center este estimativ si este influentat de conditiile meteorologice, traficul rutier si de alte probleme tehnice si umane ce nu tin de Lucapiero.
-                                <br /> Fotografiile sunt realizate in pizzeria noastra, la produsele noastre. Acestea nu constituie o oferta in interpretarea Codului de Procedura Civila. Aspectul real al produselor poate sa difere de cel al produselor prezentate in fotografii.
-                            </p>
-                            <p class='red'>
-                                Ai nemultumiri sau propuneri pentru a imbunatati serviciile noastre?
-                                <br /> 
-                                Trimite un SMS la numarul 0755.414.777 su scrie pe pizza@lucapiero.ro . ITI MULTUMIM!
-                                </p>
-                        </div> 
-                        <div class='large-12 columns text-center'> 
-                            <hr />
-                            <p>
-                                <a href='/' class='red'>
-                                    &copy;Lucapiero
-                                </a> 
-                                2013. Toate drepturile rezervate.
-                            </p> 
-                        </div> 
-                    </div> 
-                </footer> 
-                              
-            </div>  
-        </div>
-    </div>
+    <div ui-view></div>
 
     <!-- build:js js/vendor/libraries.min.js -->
     <!-- bower:js -->
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/fastclick/lib/fastclick.js"></script>
     <script src="bower_components/jquery.cookie/jquery.cookie.js"></script>
+    <script src="bower_components/underscore/underscore.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:js js/vendor/foundation.min.js -->
@@ -313,31 +54,22 @@
     <script src="bower_components/foundation/js/foundation/foundation.tab.js"></script>
     <script src="bower_components/foundation/js/foundation/foundation.tooltip.js"></script>
     <!-- // <script src="bower_components/foundation/js/foundation/foundation.topbar.js"></script> -->
-    <script src="bower_components/json3/lib/json3.js"></script>
-    <script src="bower_components/lodash/lodash.js"></script>
-    <script src="bower_components/angular/angular.js"></script>
-    <!-- // <script src="bower_components/angular-animate/angular-animate.js"></script> -->
-    <!-- // <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script> -->
     <!-- endbuild -->
     <!-- build:js js/app.min.js -->
     <script src="js/app.js"></script>
-    <script src="js/ng.js"></script>
-    <!-- // <script src="js/models/products-model.js"></script> -->
-    <!-- // <script src="js/models/categories-model.js"></script> -->
-    <!-- // <script src="js/controllers/categories.js"></script> -->
-    <!-- // <script src="js/controllers/products.js"></script> -->
+    <script src="js/controllers/main.controller.js"></script>
     <!-- endbuild -->
 
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();
-            a=s.createElement(o), m=s.getElementsByTagName(o)[0];
-            a.async=1;
-            a.src=g;
-            m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        ga('create', 'UA-43639080-1', 'lucapiero.ro');
-        ga('send', 'pageview');
-    </script>
+    <!-- // <script> -->
+        <!-- (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ -->
+            <!-- (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date(); -->
+            <!-- a=s.createElement(o), m=s.getElementsByTagName(o)[0]; -->
+            <!-- a.async=1; -->
+            <!-- a.src=g; -->
+            <!-- m.parentNode.insertBefore(a,m) -->
+        <!-- })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); -->
+        <!-- ga('create', 'UA-43639080-1', 'lucapiero.ro'); -->
+        <!-- ga('send', 'pageview'); -->
+    <!-- </script> -->
   </body>
 </html>

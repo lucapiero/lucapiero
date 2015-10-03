@@ -1,12 +1,19 @@
+<ul class="tabs" data-tab>
+    <li ng-repeat="category in vm.categories" ng-class="{'active':isCurrentCategory(category)}" class="tab-title">
+        <a href="{{category.DOMNode}}">{{category.name}}</a>
+    </li>
+</ul>
+<br />
+
 <div class='row categ-group'> 
+
     <div class='medium-6 large-4 columns product'
-        product="product" 
         ng-class="{active: isSelectedBookmark(bookmark.id)}" 
-        ng-repeat="product in products | filter:{category:getCurrentCategoryName()} ">
+        ng-repeat="product in vm.products | filter:{category:getCurrentCategoryName()} ">
         
         <img src='{{product.src}}' /> 
         <h4>
-            {{product.name}} 
+            {{product}} 
         </h4> 
         <p>
             {{product.ingredients}} 

@@ -1,32 +1,22 @@
 [
     {
     	"id": "0", 
-    	"name": "Pizza Clasic",
-        "DOMNode":"#pizza-clasic"
+    	"name": "Pizza",
+        "DOMNode": "#pizza"
 	},
     {
     	"id": "1", 
-    	"name": "Pizza Bonisimo",
-        "DOMNode":"#pizza-bonisimo"
+    	"name": "Pizza Grange",
+        "DOMNode": "#pizza-grande"
 	},
     {
     	"id": "2", 
-    	"name": "Pizza de Post",
-        "DOMNode":"#pizza-de-post"
+    	"name": "Pizza 1 + 1",
+        "DOMNode": "#pizza-1+1"
 	},
     {
     	"id": "3", 
-    	"name": "Paste",
-        "DOMNode":"#paste"
-	},
-    {
-    	"id": "4", 
-    	"name": "Salate",
-        "DOMNode":"#salate"
-	},
-    {
-    	"id": "4", 
     	"name": "Sosuri",
-        "DOMNode":"#sosuri"
+        "DOMNode": "#sosuri"
 	}
 ]

@@ -6,7 +6,12 @@ var app = (function(document, $) {
 			docElem.setAttribute('data-useragent', navigator.userAgent);
 		},
 		_init = function() {
-			$(document).foundation();
+			$(document).foundation({
+				tooltips: {
+					touch_close_text: 'apasa pentru a inchide',
+					disable_for_touch: false
+				}
+			});
 			_userAgentInit();
 		};
 	return {
