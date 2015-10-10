@@ -1,9 +1,9 @@
 <div class="row">
     <div class="small-12 columns">
         <ul class="tabs" data-tab>
-            <% _.each(sc.data, function(categories) { %>
-            <li class="<%= categories.DOMNode %> tab-title">
-                <a href="#/<%= categories.DOMNode %>"><%= categories.name %></a>
+            <% _.each(sc.data, function(pages) { %>
+            <li class="<%= pages.DOMNode %> tab-title">
+                <a href="#/<%= pages.DOMNode %>"><%= pages.name %></a>
             </li>
             <% }); %>
         </ul>

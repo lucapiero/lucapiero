@@ -2,11 +2,11 @@
 *.scssc
 lucapiero.sublime-project 
 lucapiero.sublime-workspace
-app/css/app.css
-app/kitchen-sink.html
+app/assets/css/
 .tmp/
 .sass-cache/
+.idea/
 dist/
 tmp/
 node_modules/
-app/bower_components/
+app/libs/

@@ -1,12 +1,12 @@
-define(['jquery', 'underscore', 'backbone', 'tpl', 'categoriesModel'],
+define(['jquery', 'underscore', 'backbone', 'tpl', 'pagesModel'],
 
-function($, _, Backbone, tpl, CategoriesModel) {
+function($, _, Backbone, tpl, PagesModel) {
 
     var MainMenuView = Backbone.View.extend({
-        model: new CategoriesModel({urlRoot: 'data/categories.json'}),
+        model: new PagesModel({urlRoot: 'data/pages.json'}),
 
         render: function() {
-            this.template = _.template(tpl.get('mainMenu'))({data: window.categories});
+            this.template = _.template(tpl.get('mainMenu'))({data: window.pages});
             this.$el.html(this.template);
             return this.$el;
         },

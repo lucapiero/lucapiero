@@ -34,8 +34,9 @@
     "node-sass": "~2.0.1"
   },
   "dependencies": {
-    "underscore": "~1.5.2",
     "autoprefixer-core": "^5.1.7",
-    "express": "~3.x.x"
+    "express": "~3.x.x",
+    "underscore": "~1.5.2",
+    "xlsx-to-json": "^0.2.4"
   }
 }

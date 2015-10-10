@@ -39,8 +39,7 @@ function($, _, Backbone, tpl, HeaderView, SplashesView, MainMenuView, FooterView
             this.beforeClose();
         }
 
-        this.remove();
-        this.unbind();
+        this.remove().unbind();
     };
 
     // Application Router/ Controller
@@ -104,7 +103,7 @@ function($, _, Backbone, tpl, HeaderView, SplashesView, MainMenuView, FooterView
         },
 
         notFound : function () {
-            this.navigate('', {trigger: false})
+            this.navigate('', { trigger: false })
         },
 
         showView: function(selector, view) {
