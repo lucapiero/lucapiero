@@ -2,14 +2,14 @@ define( ['jquery', 'underscore', 'backbone'],
 
 function($, _, Backbone) {
 
-    var CategoriesModel = Backbone.Model.extend({
+    var PagesModel = Backbone.Model.extend({
 
         initialize: function (attributes, options) {
             this.fetch({
                 url: attributes.urlRoot,
 
                 success: function(model, response, options) {
-                    window.categories = response;
+                    window.pages = response;
                 },
 
                 error: function (error) {
@@ -19,5 +19,5 @@ function($, _, Backbone) {
         }
     });
 
-    return CategoriesModel;
+    return PagesModel;
 });

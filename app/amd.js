@@ -48,7 +48,7 @@ requirejs.config({
 
         // Models
         'productsModel': 'models/productsModel',
-        'categoriesModel': 'models/categoriesModel',
+        'pagesModel': 'models/pagesModel',
 
         // Views
         'HeaderView': 'views/HeaderView',
@@ -93,7 +93,7 @@ requirejs.config({
         'foundation.topbar': { deps: ['foundation.core'] },
 
         'productsModel': { deps: ['backbone'] },
-        'categoriesModel': { deps: ['backbone'] },
+        'pagesModel': { deps: ['backbone'] },
 
         'HeaderView': { deps: ['backbone'] },
         'SplashesView': { deps: ['backbone'] },
