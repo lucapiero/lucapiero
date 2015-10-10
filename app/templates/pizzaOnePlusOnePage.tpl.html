@@ -7,7 +7,7 @@
     <div class='small-12 large-12 columns'>
         <div class='row categ-group'>
             <% _.each(sc.data, function(products) { %>
-            <% if (products.category === 'pizza') { %>
+            <% if ( !_.isUndefined(products.oneplusone) ) { %>
             <div class='medium-6 large-4 columns product'>
                 <img src='assets/images/data/<%= products.url %>' />
                 <h4>
@@ -17,13 +17,11 @@
                     <%= products.ingredients %>
                 </p>
                 <ul class='button-group round even-3'>
-                    <li class='small button secondary has-tip' data-tooltip title='pizza individual -standard 32cm (pret/buc.)'><%= products.price1 %> lei
-                    </li>
                     <li class='small button secondary has-tip' data-tooltip title='1+1 gratis -pizza medie 30cm. (la acest pret primesti 2 pizza)'>
-                        <%= products.price2 %> lei
+                        <%= products.weight %> gr
                     </li>
                     <li class='small button secondary has-tip' data-tooltip title='1+1 gratis -pizza grande 40cm. (la acest pret primesti 2 pizza grande)'>
-                        <%= products.price3 %> lei
+                        <%= products.oneplusone.price %> lei
                     </li>
                 </ul>
             </div>

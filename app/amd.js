@@ -107,10 +107,10 @@ requirejs.config({
         'SalatePageView': { deps: ['backbone'] },
         'SosuriPageView': { deps: ['backbone'] },
         'ContactPageView': { deps: ['backbone'] }
-        },
+    },
 
-
-    urlArgs : new Date().getTime(),
+    //urlArgs : new Date().getTime(),
+    urlArgs : '-v1.0.1',
 
     // Require this file as main dependency
     deps: ['router']
