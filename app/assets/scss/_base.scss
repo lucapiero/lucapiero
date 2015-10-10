@@ -1,0 +1,38 @@
+// This is mobile-first approach, so these styles are avaiable for all devices
+.wrapper {
+	ul {
+		li {
+			list-style: none;
+		}
+	}		
+
+	> * {
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+
+	.hidden {
+		display: none;
+	}
+
+	.has-tip {
+		cursor: default;
+	}
+
+	.columns {
+		@include transition-animation(.5s);
+	}
+
+	h4,
+	.red {
+		color: $alert-color;
+	}
+
+	.green {
+		color: $success-color;
+	}
+
+	[src$="d.jpg"] {
+		margin: 1em 0  2em;
+	}		
+}	

@@ -1,7 +1,6 @@
-<!doctype html>
-<html class="no-js" lang="en" ng-app="lucapiero">
-
-<head>
+<!DOCTYPE html>
+<html>
+<head lang="en">
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width'>
     <meta name='keywords' content='Pizza, Pizza Oradea, Paste oradea, Salate Oradea,  Livrare Domiciliu Pizza'>
@@ -9,67 +8,24 @@
     <meta name='description' content='Pizza Oradea, Paste oradea, Salate Oradea livrare la domiciliu. pizza 1+1 gratis vatra cuptor lemne telefon lucapiero 0259.414.777'>
 
     <title>Pizzeria Lucapiero - Pizza service Oradea. Paste Oradea. Salate Oradea. Livrari la domiciliu 0259.414.777 pizza pe vatra cuptor cu lemne 1+1 gratis</title>
-
-    <!-- build:css css/libraries.min.css -->
-    <!-- bower:css -->
-    <!-- endbower -->
-    <!-- endbuild -->
-    <!-- build:css css/app.min.css -->
-    <link rel="stylesheet" href="css/app.css">
-    <!-- endbuild -->
-    <!-- build:js js/vendor/modernizr.min.js -->
-    <script src="bower_components/modernizr/modernizr.js"></script>
-    <!-- endbuild -->
-    <!-- <link href='http://fonts.googleapis.com/css?family=Raleway:200' rel='stylesheet' type='text/css'>     -->
+    
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <link rel="stylesheet" href="assets/css/app.css" type="text/css">
 </head>
 
 <body>
+    <div class="row">
+        <div class="small-12 columns">
+            <div class="wrapper">
+                <header id="header"></header>
+                <aside id="splashes"></aside>
+                <section id="nav-region"></section>
+                <section id="ui-view"></section>
+                <footer id="footer"></footer>
+            </div>
+        </div>
+    </div>
 
-    <div ui-view></div>
-
-    <!-- build:js js/vendor/libraries.min.js -->
-    <!-- bower:js -->
-    <script src="bower_components/jquery/dist/jquery.js"></script>
-    <script src="bower_components/fastclick/lib/fastclick.js"></script>
-    <script src="bower_components/jquery.cookie/jquery.cookie.js"></script>
-    <script src="bower_components/underscore/underscore.js"></script>
-    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
-    <!-- endbower -->
-    <!-- endbuild -->
-    <!-- build:js js/vendor/foundation.min.js -->
-    <script src="bower_components/foundation/js/foundation/foundation.js"></script>
-    <!-- // <script src="bower_components/foundation/js/foundation/foundation.abide.js"></script> -->
-    <!-- // <script src="bower_components/foundation/js/foundation/foundation.accordion.js"></script> -->
-    <!-- // <script src="bower_components/foundation/js/foundation/foundation.alert.js"></script> -->
-    <!-- // <script src="bower_components/foundation/js/foundation/foundation.clearing.js"></script> -->
-    <!-- // <script src="bower_components/foundation/js/foundation/foundation.dropdown.js"></script> -->
-    <!-- // <script src="bower_components/foundation/js/foundation/foundation.equalizer.js"></script> -->
-    <!-- // <script src="bower_components/foundation/js/foundation/foundation.interchange.js"></script> -->
-    <!-- // <script src="bower_components/foundation/js/foundation/foundation.joyride.js"></script> -->
-    <!-- // <script src="bower_components/foundation/js/foundation/foundation.magellan.js"></script> -->
-    <!-- // <script src="bower_components/foundation/js/foundation/foundation.offcanvas.js"></script> -->
-    <!-- // <script src="bower_components/foundation/js/foundation/foundation.orbit.js"></script> -->
-    <!-- // <script src="bower_components/foundation/js/foundation/foundation.reveal.js"></script> -->
-    <!-- // <script src="bower_components/foundation/js/foundation/foundation.slider.js"></script> -->
-    <script src="bower_components/foundation/js/foundation/foundation.tab.js"></script>
-    <script src="bower_components/foundation/js/foundation/foundation.tooltip.js"></script>
-    <!-- // <script src="bower_components/foundation/js/foundation/foundation.topbar.js"></script> -->
-    <!-- endbuild -->
-    <!-- build:js js/app.min.js -->
-    <script src="js/app.js"></script>
-    <script src="js/controllers/main.controller.js"></script>
-    <!-- endbuild -->
-
-    <!-- // <script> -->
-        <!-- (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ -->
-            <!-- (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date(); -->
-            <!-- a=s.createElement(o), m=s.getElementsByTagName(o)[0]; -->
-            <!-- a.async=1; -->
-            <!-- a.src=g; -->
-            <!-- m.parentNode.insertBefore(a,m) -->
-        <!-- })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); -->
-        <!-- ga('create', 'UA-43639080-1', 'lucapiero.ro'); -->
-        <!-- ga('send', 'pageview'); -->
-    <!-- </script> -->
-  </body>
+    <script data-main="amd" src="libs/requirejs/require.js"></script>
+</body>
 </html>

@@ -1,0 +1,27 @@
+<section class="content" id="salate"><!-- salate -->
+    <div class='large-12 columns'>
+        <h3>
+            Salate Oradea - livrare la domociliu 0259.414.777
+        </h3>
+    </div>
+    <div class='small-12 large-12 columns'>
+        <div class='row categ-group'>
+            <% _.each(sc.data, function(products) { %>
+            <% if (products.category === 'salate') { %>
+            <div class='medium-6 large-4 columns product'>
+                <img src='assets/images/data/<%= products.url %>' />
+                <h4>
+                    <%= products.name %>
+                </h4>
+                <p>
+                    <%= products.ingredients %>
+                </p>
+                <ul class="button-group round even-2">
+                    <li class="small button secondary has-tip" data-tooltip=""  title="gramaj <%= products.weight %>"><%= products.weight %> gr</li>
+                    <li class="small button secondary has-tip" data-tooltip="" title="pret <%= products.price1 %>"><%= products.price1 %> lei</li>
+                </ul>
+            </div>
+            <% }}); %>
+        </div>
+    </div>
+</section><!-- /salate -->

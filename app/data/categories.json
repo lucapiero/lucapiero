@@ -1,0 +1,32 @@
+[
+    {
+        "id": "0", 
+        "name": "Pizza",
+        "DOMNode":"pizza"
+    },
+    {
+        "id": "1", 
+        "name": "Pizza Grande",
+        "DOMNode":"pizza-grande"
+    },
+    {
+        "id": "2", 
+        "name": "Pizza 1+1",
+        "DOMNode":"pizza-unu-plus-unu"
+    },
+    {
+        "id": "3", 
+        "name": "Paste",
+        "DOMNode":"paste"
+    },
+    {
+        "id": "4", 
+        "name": "Salate",
+        "DOMNode":"salate"
+    },
+    {
+        "id": "4", 
+        "name": "Sosuri",
+        "DOMNode":"sosuri"
+    }
+]
