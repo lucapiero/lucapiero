@@ -98,6 +98,7 @@ function(tpl, HeaderView, SplashesView, MainMenuView, FooterView, HomePageView, 
 
             // Instantiate Foundation JS ( with optional configuration )
             $(document).foundation();
+            $('.product:last-child').addClass('end');
             return view;
         }
     });

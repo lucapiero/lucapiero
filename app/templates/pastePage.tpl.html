@@ -4,7 +4,6 @@
             Paste Oradea - livrare la domiciliu 0259.414.777
         </h3>
     </div>
-
     <div class='small-12 large-12 columns'>
         <div class='row categ-group' data-equalizer>
             <% _.each(sc.data, function(products) { %>
@@ -19,7 +18,7 @@
                 </p>
                 <ul class="button-group round even-2">
                     <li class="small button secondary has-tip" data-tooltip=""  title="gramaj <%= products.weight %>"><%= products.weight %> gr</li>
-                    <li class="small button secondary has-tip" data-tooltip="" title="pret <%= products.price1 %>"><%= products.price1 %> lei</li>
+                    <li class="small button secondary has-tip" data-tooltip="" title="pret <%= products.price %>"><%= products.price %> lei</li>
                 </ul>
             </div>
             <% }}); %>

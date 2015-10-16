@@ -121,7 +121,7 @@
         },
 
         //the duration that require should wait before abandoning the load
-        waitSeconds : 300,
+        waitSeconds : 100,
 
         //urlArgs : new Date().getTime(),
         urlArgs : '-v1.0.1',
