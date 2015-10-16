@@ -1363,7 +1363,7 @@ $has-tip-font-color-hover: inherit;
 $has-tip-cursor-type: pointer;
 
 $tooltip-padding: rem-calc(6 12);
-$tooltip-bg: $oil;
+$tooltip-bg: rgba($oil, .9);
 $tooltip-font-size: rem-calc(12);
 $tooltip-font-weight: inherit;
 $tooltip-font-color: $smoke;

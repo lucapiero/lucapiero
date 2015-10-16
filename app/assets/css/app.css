@@ -1839,7 +1839,7 @@ button::-moz-focus-inner {
     float: none !important; }
 
 .tooltip {
-  background: #333333;
+  background: rgba(51, 51, 51, 0.9);
   color: #EEEEEE;
   display: none;
   font-size: 0.75rem;
@@ -1853,7 +1853,7 @@ button::-moz-focus-inner {
   left: 50%; }
   .tooltip > .nub {
     border: solid 5px;
-    border-color: transparent transparent #333333 transparent;
+    border-color: transparent transparent rgba(51, 51, 51, 0.9) transparent;
     display: block;
     height: 0;
     pointer-events: none;
@@ -1882,22 +1882,22 @@ button::-moz-focus-inner {
 
 @media only screen {
   .tooltip > .nub {
-    border-color: transparent transparent #333333 transparent;
+    border-color: transparent transparent rgba(51, 51, 51, 0.9) transparent;
     top: -10px; }
   .tooltip.tip-top > .nub {
-    border-color: #333333 transparent transparent transparent;
+    border-color: rgba(51, 51, 51, 0.9) transparent transparent transparent;
     bottom: -10px;
     top: auto; }
   .tooltip.tip-left, .tooltip.tip-right {
     float: none !important; }
   .tooltip.tip-left > .nub {
-    border-color: transparent transparent transparent #333333;
+    border-color: transparent transparent transparent rgba(51, 51, 51, 0.9);
     left: auto;
     margin-top: -5px;
     right: -10px;
     top: 50%; }
   .tooltip.tip-right > .nub {
-    border-color: transparent #333333 transparent transparent;
+    border-color: transparent rgba(51, 51, 51, 0.9) transparent transparent;
     left: -10px;
     margin-top: -5px;
     right: auto;
@@ -2618,17 +2618,17 @@ th.hide-for-touch {
         padding: .5rem 0;
         font-size: .75rem; }
 
-#content .categ-group {
+.content .categ-group {
   padding-top: 5em; }
-  #content .categ-group .product {
+  .content .categ-group .product {
     margin: 0 0 3rem; }
-    #content .categ-group .product p {
+    .content .categ-group .product p {
       color: #555555; }
-    #content .categ-group .product .button-group li {
+    .content .categ-group .product .button-group li {
       border-left: 1px solid #FFFFFF; }
-      #content .categ-group .product .button-group li.button.secondary {
+      .content .categ-group .product .button-group li.button.secondary {
         color: #080; }
-        #content .categ-group .product .button-group li.button.secondary:not(:first-child) {
+        .content .categ-group .product .button-group li.button.secondary:not(:first-child) {
           color: #c00; }
 
 @media only screen {
