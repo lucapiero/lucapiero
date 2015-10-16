@@ -5,10 +5,10 @@
         </h3>
     </div>
     <div class='small-12 large-12 columns'>
-        <div class='row categ-group'>
+        <div class='row categ-group' data-equalizer>
             <% _.each(sc.data, function(products) { %>
             <% if ( !_.isUndefined(products.grande) ) { %>
-            <div class='medium-6 large-4 columns product'>
+            <div class='medium-6 large-4 columns product' data-equalizer-watch>
                 <img src='assets/images/data/<%= products.url %>' />
                 <h4>
                     <%= products.name %>

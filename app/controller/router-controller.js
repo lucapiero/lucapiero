@@ -1,46 +1,28 @@
 define([
-    'jquery',
-    'underscore',
-    'backbone',
-
     'tpl',
-
     'HeaderView',
     'SplashesView',
     'MainMenuView',
     'FooterView',
     'HomePageView',
-    'PizzaPageView', 
-    'PizzaGrandePageView', 
+    'PizzaPageView',
+    'PizzaGrandePageView',
     'PizzaOnePlusOnePageView',
-    'PastePageView', 
-    'SalatePageView', 
-    'SosuriPageView', 
-    'ContactPageView',
-
-    'foundation.core',
-    'foundation.tooltip',
-    'foundation.tab',
-    'foundation.interchange'
+    'PastePageView',
+    'SalatePageView',
+    'SosuriPageView',
+    'ContactPageView'
     ],
 
-function($, _, Backbone, tpl, HeaderView, SplashesView, MainMenuView, FooterView,
-    HomePageView, PizzaPageView, PizzaGrandePageView, PizzaOnePlusOnePageView,
-    PastePageView, SalatePageView, SosuriPageView, ContactPageView, foundation, tooltip, tab, interchange) {
-    
+function(tpl, HeaderView, SplashesView, MainMenuView, FooterView, HomePageView, PizzaPageView, PizzaGrandePageView,
+         PizzaOnePlusOnePageView, PastePageView, SalatePageView, SosuriPageView, ContactPageView)
+    {
+
     "use strict";
 
-    // Top-level variable references in our Underscore.js templates
-    _.templateSettings.variable = "sc";
-
-    // Backbone close method for unbinding the ghost views
-    Backbone.View.prototype.close = function() {
-        if (this.beforeClose) {
-            this.beforeClose();
-        }
-
-        this.remove().unbind();
-    };
+    // Application templates list
+    var appTemplates = ['header', 'splashes', 'mainMenu', 'footer', 'homePage', 'pizzaPage', 'pizzaGrandePage',
+        'pizzaOnePlusOnePage', 'pastePage', 'salatePage', 'sosuriPage', 'contactPage'];
 
     // Application Router/ Controller
     var AppRouter = Backbone.Router.extend({
@@ -68,10 +50,12 @@ function($, _, Backbone, tpl, HeaderView, SplashesView, MainMenuView, FooterView
 
             this.footerView = new FooterView();
             $('#footer').html(this.footerView.render());
+
         },
 
         homePage: function() {
             this.showView('#ui-view', new HomePageView());
+            this.navigate('pizza', { trigger: true });
         },
 
         pizzaPage: function() {
@@ -103,7 +87,7 @@ function($, _, Backbone, tpl, HeaderView, SplashesView, MainMenuView, FooterView
         },
 
         notFound : function () {
-            this.navigate('', { trigger: false })
+            this.navigate('', { trigger: true })
         },
 
         showView: function(selector, view) {
@@ -111,14 +95,29 @@ function($, _, Backbone, tpl, HeaderView, SplashesView, MainMenuView, FooterView
             $(selector).html(view.render());
             this.mainMenuView.selectMenuItem(Backbone.history.getFragment());
             this.currentView = view;
+
+            // Instantiate Foundation JS ( with optional configuration )
+            $(document).foundation();
             return view;
         }
     });
 
-    tpl.loadTemplates(['header', 'splashes', 'mainMenu', 'footer', 'homePage', 'pizzaPage', 'pizzaGrandePage', 'pizzaOnePlusOnePage', 'pastePage', 'salatePage', 'sosuriPage', 'contactPage'],
-        function() {
-            var Lucapiero = new AppRouter();
-            Backbone.history.start();
+    // Load application templates, asynchronously
+    tpl.loadTemplates(appTemplates, function() {
+        var app = new AppRouter();
+        Backbone.history.start();
+    });
+
+    // Top-level variable references in our Underscore.js templates
+    _.templateSettings.variable = "sc";
+
+    // Backbone close method for unbinding the ghost views
+    Backbone.View.prototype.close = function() {
+        if (this.beforeClose) {
+            this.beforeClose();
         }
-    );
+
+        this.remove().unbind();
+    };
+
 });
