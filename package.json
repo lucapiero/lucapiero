@@ -1,6 +1,7 @@
+
 {
   "name": "Lucapiero",
-  "description": "Pizzerie - Restaurant in centrul Oradiei",
+  "description": "Pizza in the city center of Oradea. This is a simple SPA using Require, Underscore, Backbone, Foundation5.4.x with Sass, Grunt and Livereload",
   "version": "0.1.0",
   "homepage": "http://lucapiero.ro",
   "author": {
