@@ -60,7 +60,7 @@ function(tpl, HeaderView, SplashesView, MainMenuView, FooterView, HomePageView, 
 
         homePage: function() {
             this.showView('#ui-view', new HomePageView());
-            this.navigate('pizza', { trigger: true });
+            this.navigate('#/pizza', { trigger: true });
         },
 
         pizzaPage: function() {
@@ -92,7 +92,7 @@ function(tpl, HeaderView, SplashesView, MainMenuView, FooterView, HomePageView, 
         },
 
         notFound : function () {
-            this.navigate('', { trigger: true })
+            this.navigate('#/pizza', { trigger: true })
         },
 
         showView: function(selector, view) {
