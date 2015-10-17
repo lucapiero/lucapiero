@@ -5,13 +5,15 @@
         "DOMNode":"pizza"
     },
     {
-        "id": "1", 
+        "id": "1",
         "name": "Pizza Grande",
+        "shortName": "Grande",
         "DOMNode":"pizza-grande"
     },
     {
-        "id": "2", 
+        "id": "2",
         "name": "Pizza 1+1",
+        "shortName": "1+1",
         "DOMNode":"pizza-unu-plus-unu"
     },
     {

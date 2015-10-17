@@ -3,7 +3,14 @@
         <ul class="tabs" data-tab>
             <% _.each(sc.data, function(pages) { %>
             <li class="<%= pages.DOMNode %> tab-title">
-                <a href="#/<%= pages.DOMNode %>"><%= pages.name %></a>
+                <a href="#/<%= pages.DOMNode %>">
+                    <% if (pages.shortName !== undefined) { %>
+                    <span class="show-for-small-only"><%= pages.shortName %></span>
+                    <% } else { %>
+                    <span class="show-for-small-only"><%= pages.name %></span>
+                    <% } %>
+                    <span class="show-for-medium-up"><%= pages.name %></span>
+                </a>
             </li>
             <% }); %>
         </ul>
