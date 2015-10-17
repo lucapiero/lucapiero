@@ -56,7 +56,6 @@ function(tpl, HeaderView, SplashesView, MainMenuView, FooterView, HomePageView, 
 
             // Appropriate 'touch' / 'no-touch' classes in the body tag
             $('body').addClass(( $('html').hasClass('touch') === true ) ? 'touch' : 'no-touch');
-
         },
 
         homePage: function() {
