@@ -2,7 +2,7 @@
 *.scssc
 lucapiero.sublime-project 
 lucapiero.sublime-workspace
-app/assets/css/**.css
+app/assets/css/*.css
 app/data/
 .tmp/
 .sass-cache/

@@ -1,47 +1,23 @@
 // Screens > 640px
-@media #{$small} {
-	body {
-		.wrapper {
-			#header {
-				.top-content {
-					text-align: left;
-					// margin: 1rem 0 0;
+@media #{$medium} {
+	.top-content {
+		text-align: left;
 
-					p {
-						padding: 2rem 0 0;
-					}
-				}
+		p {
+			padding: 3rem 0 0;
+		}
+	}
+
+	.tabs {
+		.tab-title {
+			a {
+				padding: 1rem 0;
+				font-size: rem-calc(15);
 			}
+		}
+	}
 
-			#splashes {
-			}
-			
-			#nav-region {
-				.tabs {
-					.tab-title {
-						a {
-							padding: 1rem 0;
-							font-size: rem-calc(15);
-						}
-					}
-				}
-			}			
-
-			#content {
-				.categ-group {
-					.product {
-						margin: 0;
-						min-height: 26rem;
-
-						&:last-child {
-							@extend .end;
-						}
-					}
-				}
-			}	
-			
-			#footer {
-			}	
-		}	
-	}		
+	.product {
+		margin: 0;
+	}
 }

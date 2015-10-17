@@ -1,25 +1,28 @@
-.content {
-	.categ-group {
-		padding-top: 5em;
+.categ-group {
+	padding-top: 5em;
+}
 
-		.product {
-			margin: 0 0 3rem;
+.product {
+	margin: 0 0 5rem;
 
-			p {
-				color: $charcoal;
-			}
+	&:last-child {
+	  @extend .end;
+	}
 
-			.button-group {
-				li {
-					border-left: 1px solid $white;
+	p {
+		color: $charcoal;
+	}
 
-					&.button.secondary {
-						color: $success-color;
+	.button-group {
+		li {
+			border-left: 1px solid $white;
+			width: 33%;
 
-						&:not(:first-child) {
-							color: $alert-color;
-						}
-					}
+			&.button.secondary {
+				color: $success-color;
+
+				&:not(:first-child) {
+					color: $alert-color;
 				}
 			}
 		}

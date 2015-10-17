@@ -1,21 +1,9 @@
 // Screens > 1440px
 @media #{$large} {
-	body {
-		.wrapper {
-			#header {
-				.top-content {
-					p {
-						font-size: 1.5rem;
-					}
-				}
-			}	
-			#splashes {
-			}
-			
-			#content {
-			}	
-			#footer {
-			}	
-		}	
-	}	
+	.top-content {
+		p {
+			padding: 2.5rem 0 0;
+			font-size: 1.5rem;
+		}
+	}
 }

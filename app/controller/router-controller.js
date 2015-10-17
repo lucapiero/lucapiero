@@ -93,12 +93,12 @@ function(tpl, HeaderView, SplashesView, MainMenuView, FooterView, HomePageView, 
         showView: function(selector, view) {
             if (this.currentView) this.currentView.close();
             $(selector).html(view.render());
-            this.mainMenuView.selectMenuItem(Backbone.history.getFragment());
             this.currentView = view;
 
-            // Instantiate Foundation JS ( with optional configuration )
+            this.mainMenuView.selectMenuItem(Backbone.history.getFragment());
+
             $(document).foundation();
-            $('.product:last-child').addClass('end');
+
             return view;
         }
     });

@@ -1,26 +1,27 @@
 #nav-region {
-	border-top: 1px solid $white;
+  border-top: 1px solid $white;
+}
 
-	.tabs {
-		background: $smoke;
+.tabs {
+	background: $smoke;
 
-		.tab-title {
-			width: calc(100% / 6);
-			margin: 0;
-			padding: 0;
-			white-space: nowrap;
-			overflow: hidden;
-			text-align: center;
-			text-overflow: ellipsis;
+  	.tab-title {
+		width: calc(100% / 6);
+		margin: 0;
+		padding: 0;
+		white-space: nowrap;
+		overflow: hidden;
+		text-align: center;
+		text-overflow: ellipsis;
 
-			&:not(:last-child) {
-				border-right: 1px solid $white;
-			}
+		&:not(:last-child) {
+			border-right: 1px solid $white;
+		}
 
-			a {
-				padding: .5rem 0;
-				font-size: .75rem;
-			}
+		a {
+			padding: .5rem 0;
+			font-size: .75rem;
 		}
 	}
 }
+
