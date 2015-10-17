@@ -134,7 +134,7 @@
 				  	files: {
 					    '<%= dist %>/index.html': '<%= app %>/index.html'
 					}
-				},
+				}
 			},
 
 			cssmin: {
@@ -144,7 +144,7 @@
 				},
 				target: {
 					files: {
-						'<%= dist %>/assets/css/app.min.css': '<%= app %>/assets/css/app.css'
+						'<%= app %>/assets/css/app.min.css': '<%= app %>/assets/css/app.css'
 					}
 				}
 			},

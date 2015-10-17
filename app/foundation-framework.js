@@ -1,6 +1,5 @@
 require([
     'foundation.core',
-    'foundation.equalizer',
     'foundation.tooltip',
     'router'
     ],
@@ -10,8 +9,5 @@ require([
 
         // Appropriate 'touch' / 'no-touch' classes in the body tag
         $('body').addClass(( $('html').hasClass('touch') === true ) ? 'touch' : 'no-touch');
-
-        // Initialize Foundation JS
-        $(document).foundation();
     }
 );

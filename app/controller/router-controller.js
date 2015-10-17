@@ -11,7 +11,10 @@ define([
     'PastePageView',
     'SalatePageView',
     'SosuriPageView',
-    'ContactPageView'
+    'ContactPageView',
+
+    'foundation.core',
+    'foundation.tooltip'
     ],
 
 function(tpl, HeaderView, SplashesView, MainMenuView, FooterView, HomePageView, PizzaPageView, PizzaGrandePageView,
@@ -50,6 +53,9 @@ function(tpl, HeaderView, SplashesView, MainMenuView, FooterView, HomePageView, 
 
             this.footerView = new FooterView();
             $('#footer').html(this.footerView.render());
+
+            // Appropriate 'touch' / 'no-touch' classes in the body tag
+            $('body').addClass(( $('html').hasClass('touch') === true ) ? 'touch' : 'no-touch');
 
         },
 
@@ -93,10 +99,10 @@ function(tpl, HeaderView, SplashesView, MainMenuView, FooterView, HomePageView, 
         showView: function(selector, view) {
             if (this.currentView) this.currentView.close();
             $(selector).html(view.render());
+            this.mainMenuView.selectMenuItem(Backbone.history.getFragment());
             this.currentView = view;
 
-            this.mainMenuView.selectMenuItem(Backbone.history.getFragment());
-
+            // Instantiate Foundation JS ( with optional configuration )
             $(document).foundation();
 
             return view;

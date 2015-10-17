@@ -50,10 +50,6 @@
             // Template loader
             'tpl': 'utils/tpl',
 
-            // Other utils
-            'browser': 'utils/browser-detect',
-            'watchers' : 'utils/watchers',
-
             // Models
             'productsModel': 'models/productsModel',
             'pagesModel': 'models/pagesModel',
@@ -101,7 +97,6 @@
             'foundation.topbar': { deps: ['foundation.core'] },
 
             'foundation-framework' :      { deps: ['fastclick'] },
-            'watchers' : { deps: ['jquery'] },
 
             'productsModel': { deps: ['backbone'] },
             'pagesModel': { deps: ['backbone'] },
@@ -127,7 +122,7 @@
         urlArgs : '-v1.0.1',
 
         //require this file as main dependency
-        deps: ['foundation-framework']
+        deps: ['router']
     });
 
 })();
